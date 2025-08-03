@@ -1,4 +1,10 @@
 --Sumo by Julianstap, 2023
+local useDB = (os.getenv("SUMO_USE_DB") and (os.getenv("SUMO_USE_DB"):lower() == "true")) or false
+if useDB then
+	local db = require("mariadb")
+	os.execute("sleep 5")
+	db.connect_to_db(os.getenv("SUMO_DB_URL"), os.getenv("SUMO_DB_USERNAME"), os.getenv("SUMO_DB_PASSWORD"))
+end
 
 local M = {}
 
@@ -527,16 +533,33 @@ function sumoGameEnd(reason)
 	gameState.endtime = gameState.time + 10
 
 	if scoringSystem then
-		local totalScore = loadScores()
+		local totalScore = {}
+		if useDB then
+			local scoresQuery = db.execute_query("SELECT * FROM scores")
+			for _, entry in ipairs(scoresQuery) do
+				local playername = entry.playername
+				totalScore[playername] = entry.score
+			end
+		else
+			totalScore = loadScores()
+		end
 		MP.SendChatMessage(-1,"The total scores are now: ")
 		local data = { players = {} }
 		for playername, player in pairs(gameState.players) do
 			if not totalScore then totalScore = {} end
-			if not totalScore[playername] then totalScore[playername] = 0 end
+			print(totalScore[playername])
+			if not totalScore[playername] then 
+				if useDB then 
+					db.execute_query("INSERT INTO scores (playername, score) VALUES (?, 0)", playername); 
+				end 
+				totalScore[playername] = 0 
+					
+			end
 			if not player then player = {} end
 			if not player.roundScore then player.roundScore = 0 end
 			-- print(dump(player))
 			totalScore[playername] = totalScore[playername] + player.roundScore
+			if useDB then db.execute_query("UPDATE scores SET score = ? WHERE playername = ?", totalScore[playername], playername) end
 			MP.SendChatMessage(-1, "" .. playername .. " : " .. totalScore[playername])
 			table.insert(data.players, {
 				name  = playername,
@@ -548,7 +571,9 @@ function sumoGameEnd(reason)
 			player.survivedSafezones = 0
 		end
 		MP.TriggerClientEvent(-1, "onSumoShowScoreboard", Util.JsonEncode(data))
-		saveScores(totalScore)
+		if not useDB then
+			saveScores(totalScore)
+		end
 	end
 	alivePlayers = {}
 end
@@ -1185,13 +1210,13 @@ function loadSettings()
       file:close()
       local data = Util.JsonDecode(content) -- Decode the JSON data
 		if data then
-			autoStart = data["autoStart"]
-			commandsAllowed = data["chatCommands"]
-			safezoneEndAlarm = data["safezoneEndAlarm"]
-			randomVehicles = data["randomVehicles"]
-			playersNeededForGame = data["playersNeededForGame"]
-			blockConsole = data["blockConsole"]
-			blockEditor = data["blockEditor"]
+			autoStart = (os.getenv("SUMO_AUTO_START") and (os.getenv("SUMO_AUTO_START"):lower() == "true")) or data["autoStart"]
+			commandsAllowed = (os.getenv("SUMO_CHAT_COMMANDS") and (os.getenv("SUMO_CHAT_COMMANDS"):lower() == "true")) or data["chatCommands"]
+			safezoneEndAlarm = (os.getenv("SUMO_SAFE_ZONE_END_ALARM") and (os.getenv("SUMO_SAFE_ZONE_END_ALARM"):lower() == "true")) or data["safezoneEndAlarm"]
+			randomVehicles = (os.getenv("SUMO_RANDOM_VEHICLES") and (os.getenv("SUMO_RANDOM_VEHICLES"):lower() == "true")) or data["randomVehicles"]
+			playersNeededForGame = tonumber(os.getenv("SUMO_PLAYER_NEEDED_FOR_GAME")) or data["playersNeededForGame"]
+			blockConsole = (os.getenv("SUMO_BLOCK_CONSOLE") and (os.getenv("SUMO_BLOCK_CONSOLE"):lower() == "true")) or data["blockConsole"]
+			blockEditor = (os.getenv("SUMO_BLOCK_EDITOR") and (os.getenv("SUMO_BLOCK_EDITOR"):lower() == "true")) or data["blockEditor"]
 		end
     else
         print("Cannot open file:", path)
@@ -1446,3 +1471,4 @@ M.unbanPlayer = unbanPlayer
 M.syncBannedPlayers = syncBannedPlayers
 
 return M
+
