@@ -1,7 +1,7 @@
 --Sumo by Julianstap, 2023
 local useDB = (os.getenv("SUMO_USE_DB") and (os.getenv("SUMO_USE_DB"):lower() == "true")) or false
 if useDB then
-	local db = require("mariadb")
+	db = require("mariadb")
 	os.execute("sleep 5")
 	db.connect_to_db(os.getenv("SUMO_DB_URL"), os.getenv("SUMO_DB_USERNAME"), os.getenv("SUMO_DB_PASSWORD"))
 end
