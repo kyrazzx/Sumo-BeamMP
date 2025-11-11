@@ -1067,13 +1067,7 @@ end
 
 function postVehicleSpawn(spawnConfirmed, playerID, vehID, data)
 	if not spawnConfirmed then return end
-	if waitingForVehicleOf[MP.GetPlayerName(playerID)] then
-		waitingForVehicleOf[MP.GetPlayerName(playerID)] = nil
-	end
-	if #waitingForVehicleOf == 0 then 
-		waitingForVehiclesToSpawn = false
-		vehicleSpawnWaitTime = 0
-	end
+
 end
 
 --called whenever a player spawns a vehicle.
@@ -1099,6 +1093,13 @@ function onVehicleSpawn(spawnConfirmed, playerID, vehID,  data)
 	end
 	if autoStart and neededPlayers > 1 then
 		MP.SendChatMessage(-1, "Not enough players to start a game, " .. neededPlayers - 1 .. " more player(s) need to spawn a car.")
+	end	
+	if waitingForVehicleOf[MP.GetPlayerName(playerID)] then
+		waitingForVehicleOf[MP.GetPlayerName(playerID)] = nil
+	end
+	if #waitingForVehicleOf == 0 then 
+		waitingForVehiclesToSpawn = false
+		vehicleSpawnWaitTime = 0
 	end
 end
 

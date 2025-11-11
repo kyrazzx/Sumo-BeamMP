@@ -988,6 +988,9 @@ function onPreRender(dt)
 	executeLuaSandboxed = newExecuteLua
 	if not gamestate.gameRunning then return end
 	handleResetState()	
+	if not isPlayerDead then 
+		guihooks.trigger('MenuHide') -- block menu when alive and game is running
+	end
 	settings.setValue("trafficSimpleVehicles", false)
 	--normalize to fit safezoneLength and give a value between 0 and 1 that indicates how far the time is before exploding:
 	if sumoStartTime and gamestate and gamestate.safezoneLength then
