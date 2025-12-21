@@ -30,48 +30,5 @@
     "materialTag0": "beamng",
     "materialTag1": "building",
     "translucentBlendOp": "None"
-  },
-  "italy_cobblestone": {
-    "name": "italy_cobblestone",
-    "mapTo": "italy_cobblestone",
-    "class": "Material",
-    "persistentId": "2cb60c87-ff4e-4a9b-af90-a8d2852da579",
-    "Stages": [
-      {
-        "colorMap": "/levels/gridmap_v2/art/shapes/buildings/t_italy_cobblestone_d.color.png",
-        "detailMap": "/levels/gridmap_v2/art/shapes/grid/t_gm_concrete_plain_track_detail_detail.data.png",
-        "detailNormalMapStrength": 0.5,
-        "detailScale": [
-          0.100000001,
-          0.100000001
-        ],
-        "diffuseColor": [
-          0.996078014,
-          0.996078014,
-          0.996078014,
-          1
-        ],
-        "normalMap": "/levels/gridmap_v2/art/shapes/buildings/t_italy_cobblestone_n.normal.png",
-        "overlayMap": "/levels/gridmap_v2/art/shapes/buildings/utah_breakup_texture.dds",
-        "roughnessFactor": 0.690170348,
-        "specular": [
-          0.996078014,
-          0.996078014,
-          0.996078014,
-          1
-        ],
-        "specularMap": "/levels/gridmap_v2/art/shapes/buildings/t_italy_cobblestone_s.color.png",
-        "useAnisotropic": true,
-        "vertColor": true
-      },
-      {},
-      {},
-      {}
-    ],
-    "groundtype": "COBBLESTONE",
-    "materialTag0": "beamng",
-    "materialTag1": "italy",
-    "specularStrength0": "0.490196",
-    "translucentBlendOp": "None"
   }
 }

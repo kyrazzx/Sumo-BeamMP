@@ -1,478 +1,492 @@
 {
-  "containers_shipping": {
-    "name": "containers_shipping",
-    "mapTo": "containers_shipping",
+  "Acorns1_003": {
+    "name": "Acorns1_003",
+    "mapTo": "Acorns1.003",
     "class": "Material",
-    "persistentId": "54ab4b85-e352-4833-a604-3fb87a8fddd6",
     "Stages": [
       {
-        "ambientOcclusionMap": "/art/SumoMaterials/t_containers_shipping_ao.data.png",
-        "baseColorFactor": [
-          0.992156982,
-          0.992156982,
-          0.992156982,
+        "colorMap": "/art/SumoMaterials/Acorns_top_Baked_5.png"
+      },
+      {
+        "colorMap": "/art/SumoMaterials/Acorns_top_Baked_5.png"
+      },
+      {},
+      {}
+    ]
+  },
+  "Acorns1_1": {
+    "name": "Acorns1_1",
+    "mapTo": "Acorns1_1",
+    "class": "Material",
+    "Stages": [
+      {
+        "colorMap": "/art/SumoMaterials/Acorns_top_Baked_5.png"
+      },
+      {
+        "colorMap": "/art/SumoMaterials/Acorns_bot_Baked_6.png"
+      },
+      {
+        "colorMap": "/art/SumoMaterials/Acorns_bot_Baked_6.png"
+      },
+      {}
+    ]
+  },
+  "Apple_body_Baked_3": {
+    "name": "Apple_body_Baked_3",
+    "mapTo": "Apple_body_Baked_3",
+    "class": "Material",
+    "Stages": [
+      {
+        "colorMap": "/art/SumoMaterials/Apple_body_Baked_3.png"
+      },
+      {
+        "colorMap": "/art/SumoMaterials/Apple_top_Baked_2.png"
+      },
+      {},
+      {}
+    ]
+  },
+  "Apple_top_Baked_2": {
+    "name": "Apple_top_Baked_2",
+    "mapTo": "Apple_top_Baked_2",
+    "class": "Material",
+    "Stages": [
+      {
+        "colorMap": "/art/SumoMaterials/Apple_top_Baked_2.png"
+      },
+      {
+        "colorMap": "/art/SumoMaterials/Apple_body_Baked_3.png"
+      },
+      {},
+      {}
+    ]
+  },
+  "Candle_body_Baked_4": {
+    "name": "Candle_body_Baked_4",
+    "mapTo": "Candle1_1",
+    "class": "Material",
+    "Stages": [
+      {
+        "colorMap": "/art/SumoMaterials/Candle_body_Baked_4.png"
+      },
+      {
+        "colorMap": "/art/SumoMaterials/Candle_fire_Baked_2.png"
+      },
+      {
+        "colorMap": "/art/SumoMaterials/Candle_line_Baked_3.png"
+      },
+      {}
+    ]
+  },
+  "Candle_body_Baked_7": {
+    "name": "Candle_body_Baked_7",
+    "mapTo": "Candle1.004",
+    "class": "Material",
+    "Stages": [
+      {
+        "colorMap": "/art/SumoMaterials/Candle_body_Baked_7.png",
+        "diffuseColor": null
+      },
+      {
+        "colorMap": "/art/SumoMaterials/Candle_fire_Baked_5.png",
+        "diffuseColor": null
+      },
+      {
+        "colorMap": "/art/SumoMaterials/Candle_line_Baked_6.png",
+        "diffuseColor": [
+          2.54509807,
+          2,
+          0.101961002,
+          3.89019608
+        ]
+      },
+      {
+        "diffuseColor": null
+      }
+    ]
+  },
+  "Candle_fire_Baked_2": {
+    "name": "Candle_fire_Baked_2",
+    "mapTo": "Candle1_2",
+    "class": "Material",
+    "Stages": [
+      {
+        "colorMap": "/art/SumoMaterials/Candle_fire_Baked_2.png"
+      },
+      {
+        "colorMap": "/art/SumoMaterials/Candle_body_Baked_4.png"
+      },
+      {},
+      {}
+    ]
+  },
+  "Candle_fire_Baked_5": {
+    "name": "Candle_fire_Baked_5",
+    "mapTo": "Candle1_2",
+    "class": "Material",
+    "Stages": [
+      {
+        "colorMap": "/art/SumoMaterials/Candle_fire_Baked_5.png"
+      },
+      {
+        "colorMap": "/art/SumoMaterials/Candle_body_Baked_7.png"
+      },
+      {},
+      {}
+    ]
+  },
+  "Candle_line_Baked_3": {
+    "name": "Candle_line_Baked_3",
+    "mapTo": "Candle1_2",
+    "class": "Material",
+    "Stages": [
+      {
+        "colorMap": "/art/SumoMaterials/Candle_line_Baked_3.png"
+      },
+      {
+        "colorMap": "/art/SumoMaterials/Candle_fire_Baked_2.png"
+      },
+      {},
+      {}
+    ]
+  },
+  "Candle_line_Baked_6": {
+    "name": "Candle_line_Baked_6",
+    "mapTo": "Candle1_2",
+    "class": "Material",
+    "Stages": [
+      {
+        "colorMap": "/art/SumoMaterials/Candle_line_Baked_6.png",
+        "diffuseColor": null
+      },
+      {
+        "colorMap": "/art/SumoMaterials/Candle_fire_Baked_5.png",
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": [
+          1,
+          0.993296027,
+          0.822443008,
           1
-        ],
-        "baseColorMap": "/art/SumoMaterials/t_containers_shipping_b.color.png",
-        "metallicFactor": 1,
-        "metallicMap": "/art/SumoMaterials/t_containers_shipping_m.data.png",
-        "normalMap": "/art/SumoMaterials/t_containers_shipping_nm.normal.png",
-        "roughnessMap": "/art/SumoMaterials/t_containers_shipping_r.data.png"
+        ]
       },
       {
-        "metallicMap": "/art/SumoMaterials/t_containers_shipping_m.data.png",
-        "normalMap": "/art/SumoMaterials/t_containers_shipping_nm.normal.png",
-        "opacityMap": "/art/SumoMaterials/t_containers_shipping_o.data.png",
-        "roughnessMap": "/art/SumoMaterials/t_containers_shipping_r.data.png",
-        "vertColor": true
-      },
-      {},
-      {}
-    ],
-    "activeLayers": 2,
-    "annotation": "OBSTACLES",
-    "groundType": "ASPHALT",
-    "materialTag0": "beamng",
-    "materialTag1": "Industrial",
-    "version": 1.5
+        "diffuseColor": null
+      }
+    ]
   },
-  "containers_shipping_branding": {
-    "name": "containers_shipping_branding",
-    "mapTo": "containers_shipping_branding",
+  "Mat.014": {
+    "name": "Mat.014",
+    "mapTo": "Mat.014",
     "class": "Material",
-    "persistentId": "db16d184-65a8-47b8-b1c7-39e2f545323d",
     "Stages": [
       {
-        "baseColorFactor": [
-          0.992156982,
-          0.992156982,
-          0.992156982,
+        "diffuseColor": [
+          0.800000012,
+          0.800000012,
+          0.800000012,
           1
-        ],
-        "baseColorMap": "/art/SumoMaterials/t_containers_shipping_branding_b.color.png",
-        "opacityMap": "/art/SumoMaterials/t_containers_shipping_branding_o.data.png",
-        "roughnessFactor": 0.635999978,
-        "vertColor": true
-      },
-      {},
-      {},
-      {}
-    ],
-    "castShadows": false,
-    "groundType": "ASPHALT",
-    "materialTag0": "beamng",
-    "materialTag1": "Industrial",
-    "translucent": true,
-    "translucentZWrite": true,
-    "version": 1.5
-  },
-  "alphabet": {
-    "name": "alphabet",
-    "mapTo": "alphabet",
-    "class": "Material",
-    "persistentId": "67993775-23f0-46bd-a846-8585411f98da",
-    "Stages": [
-      {
-        "colorMap": "levels/hirochi_raceway/art/shapes/objects/alphabet_d.dds",
-        "pixelSpecular": true,
-        "scrollDir": [
-          0,
-          0.1000000014901161
-        ],
-        "specularPower": 31,
-        "useAnisotropic": true,
-        "vertColor": true
-      },
-      {},
-      {},
-      {}
-    ],
-    "alphaRef": 71,
-    "alphaTest": true,
-    "annotation": "BUILDINGS",
-    "doubleSided": true,
-    "invertBackFaceNormals": true,
-    "materialTag0": "beamng",
-    "materialTag1": "vehicle",
-    "translucentBlendOp": "None"
-  },
-  "barrier_concrete": {
-    "name": "barrier_concrete",
-    "mapTo": "barrier_concrete",
-    "class": "Material",
-    "persistentId": "0bd5a6f3-2b41-4ac3-91cd-dde3635a6c38",
-    "Stages": [
-      {
-        "colorMap": "levels/hirochi_raceway/art/shapes/objects/barrier_concrete_d.dds",
-        "detailMap": "levels/hirochi_raceway/art/shapes/buildings/macro_drips.dds",
-        "detailScale": [
-          0.370000005,
-          0.370000005
-        ],
-        "normalMap": "levels/hirochi_raceway/art/shapes/objects/barrier_concrete_n.dds",
-        "pixelSpecular": true,
-        "specularMap": "levels/hirochi_raceway/art/shapes/objects/barrier_concrete_s.dds",
-        "specularPower": 32,
-        "useAnisotropic": true,
-        "vertColor": true
-      },
-      {},
-      {},
-      {}
-    ],
-    "annotation": "OBSTACLES",
-    "materialTag0": "beamng",
-    "materialTag1": "vehicle",
-    "translucent": true,
-    "translucentBlendOp": "None"
-  },
-  "boom_lift": {
-    "name": "boom_lift",
-    "mapTo": "boom_lift",
-    "class": "Material",
-    "persistentId": "f78ec5f2-523e-49ee-9ae9-4efd0d173f30",
-    "Stages": [
-      {
-        "colorMap": "levels/hirochi_raceway/art/shapes/objects/boom_lift_d.dds",
-        "normalMap": "levels/hirochi_raceway/art/shapes/objects/boom_lift_n.dds",
-        "pixelSpecular": true,
-        "reflectivityMap": "levels/hirochi_raceway/art/shapes/objects/boom_lift_r.dds",
-        "specularMap": "levels/hirochi_raceway/art/shapes/objects/boom_lift_s.dds",
-        "specularPower": 19,
-        "useAnisotropic": true
-      },
-      {},
-      {},
-      {}
-    ],
-    "alphaRef": 0,
-    "annotation": "OBSTACLES",
-    "cubemap": "global_cubemap_metalblurred",
-    "materialTag0": "beamng",
-    "materialTag1": "vehicle",
-    "translucentBlendOp": "None"
-  },
-  "catchfence": {
-    "name": "catchfence",
-    "mapTo": "catchfence",
-    "class": "Material",
-    "persistentId": "91e0fbbc-c386-42b1-8ffc-0f3d6598d5c1",
-    "Stages": [
-      {
-        "colorMap": "levels/hirochi_raceway/art/shapes/objects/catchfence_d.dds",
-        "normalMap": "levels/hirochi_raceway/art/shapes/objects/catchfence_n.dds",
-        "pixelSpecular": true,
-        "scrollDir": [
-          0,
-          0.1000000014901161
-        ],
-        "specularMap": "levels/hirochi_raceway/art/shapes/objects/catchfence_s.dds",
-        "specularPower": 31,
-        "useAnisotropic": true
-      },
-      {},
-      {},
-      {}
-    ],
-    "alphaRef": 71,
-    "alphaTest": true,
-    "annotation": "OBSTACLES",
-    "doubleSided": true,
-    "invertBackFaceNormals": true,
-    "materialTag0": "beamng",
-    "materialTag1": "vehicle",
-    "translucentBlendOp": "None"
-  },
-  "concrete_tube": {
-    "name": "concrete_tube",
-    "mapTo": "concrete_tube",
-    "class": "Material",
-    "persistentId": "be479543-a2f2-4f05-82e9-116cc49a0c17",
-    "Stages": [
-      {
-        "colorMap": "levels/hirochi_raceway/art/shapes/objects/concrete _tube_d.dds",
-        "detailNormalMap": "levels/hirochi_raceway/art/shapes/buildings/eca_bld_concrete_n.dds",
-        "detailNormalMapStrength": 2,
-        "detailScale": [
-          4,
-          4
-        ],
-        "normalMap": "levels/hirochi_raceway/art/shapes/objects/concrete _tube_n.dds",
-        "pixelSpecular": true,
-        "specular": [
-          0.0980392247,
-          0.0980392247,
-          0.0980392247,
-          0.00800000038
-        ],
-        "specularPower": 1,
-        "useAnisotropic": true,
-        "vertColor": true
-      },
-      {},
-      {},
-      {}
-    ],
-    "annotation": "OBSTACLES",
-    "materialTag0": "beamng",
-    "materialTag1": "vehicle",
-    "translucent": true,
-    "translucentBlendOp": "None"
-  },
-  "floodlight": {
-    "name": "floodlight",
-    "mapTo": "floodlight",
-    "class": "Material",
-    "persistentId": "a7956189-1e5f-4e00-9e8d-daa0ed11d772",
-    "Stages": [
-      {
-        "colorMap": "levels/hirochi_raceway/art/shapes/objects/floodlight_d.dds",
-        "normalMap": "levels/hirochi_raceway/art/shapes/objects/floodlight_n.dds",
-        "pixelSpecular": true,
-        "reflectivityMap": "levels/hirochi_raceway/art/shapes/objects/floodlight_r.dds",
-        "specularMap": "levels/hirochi_raceway/art/shapes/objects/floodlight_s.dds",
-        "specularPower": 19,
-        "useAnisotropic": true
-      },
-      {},
-      {},
-      {}
-    ],
-    "alphaRef": 0,
-    "annotation": "OBSTACLES",
-    "cubemap": "global_cubemap_metalblurred",
-    "materialTag0": "beamng",
-    "materialTag1": "vehicle",
-    "translucentBlendOp": "None"
-  },
-  "gazebo_square": {
-    "name": "gazebo_square",
-    "mapTo": "gazebo_square",
-    "class": "Material",
-    "persistentId": "271477de-51e2-4ed9-affc-d02ff223e120",
-    "Stages": [
-      {
-        "colorMap": "levels/hirochi_raceway/art/shapes/objects/gazebo_square_d.dds",
-        "detailNormalMap": "levels/hirochi_raceway/art/shapes/objects/fabric_detail_n.dds",
-        "detailScale": [
-          8,
-          8
-        ],
-        "normalMap": "levels/hirochi_raceway/art/shapes/objects/gazebo_square_n.dds",
-        "pixelSpecular": true,
-        "roughnessFactor": 0.690170288,
-        "specularMap": "levels/hirochi_raceway/art/shapes/objects/gazebo_square_s.dds",
-        "useAnisotropic": true,
-        "vertColor": true
+        ]
       },
       {
-        "detailScale": null,
-        "pixelSpecular": null,
-        "roughnessFactor": null,
-        "useAnisotropic": null,
-        "vertColor": null
+        "diffuseColor": null
       },
       {
-        "detailScale": null,
-        "pixelSpecular": null,
-        "roughnessFactor": null,
-        "useAnisotropic": null,
-        "vertColor": null
+        "diffuseColor": null
       },
       {
-        "detailScale": null,
-        "pixelSpecular": null,
-        "roughnessFactor": null,
-        "useAnisotropic": null,
-        "vertColor": null
+        "diffuseColor": null
       }
     ],
-    "alphaRef": 0,
-    "annotation": "OBSTACLES",
-    "doubleSided": true,
-    "invertBackFaceNormals": true,
-    "materialTag0": "beamng",
-    "materialTag1": "vehicle",
     "translucentBlendOp": "None"
   },
-  "guardrail": {
-    "name": "guardrail",
-    "mapTo": "guardrail",
+  "Mat.015": {
+    "name": "Mat.015",
+    "mapTo": "Mat.015",
     "class": "Material",
-    "persistentId": "7cb1908b-c47a-4d06-96b2-72c8ddf1499d",
     "Stages": [
       {
-        "colorMap": "levels/hirochi_raceway/art/shapes/objects/hr_guardrail_d.dds",
-        "normalMap": "levels/hirochi_raceway/art/shapes/objects/hr_guardrail_n.dds",
-        "pixelSpecular": true,
-        "reflectivityMap": "levels/hirochi_raceway/art/shapes/objects/hr_guardrail_r.dds",
-        "specularMap": "levels/hirochi_raceway/art/shapes/objects/hr_guardrail_s.dds",
-        "specularPower": 32,
-        "useAnisotropic": true,
-        "vertColor": true
+        "diffuseColor": [
+          0.873992026,
+          0.731881976,
+          0.363388985,
+          1
+        ]
       },
+      {
+        "diffuseColor": null
+      },
+      {
+        "colorMap": "/art/SumoMaterials/Pumkin_Pie_in_Baked_2_0001.png",
+        "diffuseColor": [
+          0.490240008,
+          0.490240008,
+          0.490240008,
+          1
+        ]
+      },
+      {
+        "diffuseColor": [
+          0.398597986,
+          0.271164,
+          0.115502998,
+          1
+        ]
+      }
+    ],
+    "translucentBlendOp": "None"
+  },
+  "Mat.016": {
+    "name": "Mat.016",
+    "mapTo": "Mat.016",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.478785008,
+          0.306019992,
+          0.177130997,
+          1
+        ]
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      }
+    ],
+    "translucentBlendOp": "None"
+  },
+  "Mat.017": {
+    "name": "Mat.017",
+    "mapTo": "Mat.017",
+    "class": "Material",
+    "Stages": [
+      {},
       {},
       {},
       {}
     ],
-    "annotation": "GUARD_RAIL",
-    "cubemap": "global_cubemap_metalblurred",
-    "materialTag0": "beamng",
-    "materialTag1": "vehicle",
-    "translucent": true,
     "translucentBlendOp": "None"
   },
-  "hr_advertising": {
-    "name": "hr_advertising",
-    "mapTo": "hr_advertising",
+  "Mat.018": {
+    "name": "Mat.018",
+    "mapTo": "Mat.018",
     "class": "Material",
-    "persistentId": "31d4eb5d-a895-40f0-b5ae-ac5be3968f34",
     "Stages": [
       {
-        "colorMap": "levels/hirochi_raceway/art/shapes/objects/hr_advertising_d.dds",
-        "pixelSpecular": true,
-        "roughnessFactor": 0.690170288,
-        "useAnisotropic": true
+        "diffuseColor": [
+          0.00447000004,
+          0.490240008,
+          0.118032999,
+          1
+        ]
       },
-      {},
-      {},
-      {}
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      }
     ],
-    "alphaRef": 0,
-    "annotation": "OBSTACLES",
-    "materialTag0": "beamng",
-    "materialTag1": "vehicle",
     "translucentBlendOp": "None"
   },
-  "hr_tirewall": {
-    "name": "hr_tirewall",
-    "mapTo": "hr_tirewall",
+  "Mat.019": {
+    "name": "Mat.019",
+    "mapTo": "Mat.019",
     "class": "Material",
-    "persistentId": "f8039b7c-7e69-460b-aace-296d2104d80f",
     "Stages": [
       {
-        "colorMap": "levels/hirochi_raceway/art/shapes/objects/tirewall_d.dds",
-        "normalMap": "levels/hirochi_raceway/art/shapes/objects/tirewall_n.dds",
-        "pixelSpecular": true,
-        "specularMap": "levels/hirochi_raceway/art/shapes/objects/tirewall_s.dds",
-        "specularPower": 19,
-        "useAnisotropic": true
+        "diffuseColor": [
+          0.971361995,
+          0.962934971,
+          0.854525983,
+          1
+        ]
       },
       {
-        "colorMap": "levels/hirochi_raceway/art/shapes/objects/tirewall_c.dds",
-        "vertColor": true
+        "diffuseColor": null
       },
-      {},
-      {}
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      }
     ],
-    "alphaRef": 0,
-    "annotation": "OBSTACLES",
-    "materialTag0": "beamng",
-    "materialTag1": "vehicle",
     "translucentBlendOp": "None"
   },
-  "toilet": {
-    "name": "toilet",
-    "mapTo": "toilet",
+  "Mushroom_bot_Baked_8": {
+    "name": "Mushroom_bot_Baked_8",
+    "mapTo": "Mushroom1.002",
     "class": "Material",
-    "persistentId": "d681af19-eae0-4eed-9a47-6180d0e3fba1",
     "Stages": [
       {
-        "colorMap": "levels/hirochi_raceway/art/shapes/objects/toilet_d.dds",
-        "normalMap": "levels/hirochi_raceway/art/shapes/objects/toilet_n.dds",
-        "pixelSpecular": true,
-        "reflectivityMap": "levels/hirochi_raceway/art/shapes/objects/toilet_r.dds",
-        "specularMap": "levels/hirochi_raceway/art/shapes/objects/toilet_s.dds",
-        "specularPower": 19,
-        "useAnisotropic": true
+        "colorMap": "/art/SumoMaterials/Mushroom_bot_Baked_8.png",
+        "diffuseColor": null
       },
-      {},
-      {},
-      {}
-    ],
-    "alphaRef": 0,
-    "annotation": "OBSTACLES",
-    "cubemap": "global_cubemap_metalblurred",
-    "materialTag0": "beamng",
-    "materialTag1": "vehicle",
-    "translucentBlendOp": "None"
+      {
+        "colorMap": "/art/SumoMaterials/Mushroom_top_Baked_7.png",
+        "diffuseColor": [
+          0.810988009,
+          0.810988009,
+          0.810988009,
+          1
+        ]
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      }
+    ]
   },
-  "vertcolor_glow": {
-    "name": "vertcolor_glow",
-    "mapTo": "vertcolor_glow",
+  "Mushroom_top_Baked_7": {
+    "name": "Mushroom_top_Baked_7",
+    "mapTo": "Mushroom1_1",
     "class": "Material",
-    "persistentId": "069e7d76-cbfb-4316-bdda-de4001c2afd1",
     "Stages": [
       {
-        "emissive": true,
-        "glow": true,
-        "pixelSpecular": true,
-        "specularPower": 32,
-        "useAnisotropic": true,
-        "vertColor": true
+        "colorMap": "/art/SumoMaterials/Mushroom_top_Baked_7.png",
+        "diffuseColor": null
       },
-      {},
-      {},
-      {}
-    ],
-    "alphaRef": 0,
-    "annotation": "BUILDINGS",
-    "doubleSided": true,
-    "materialTag0": "beamng",
-    "materialTag1": "building",
-    "translucentBlendOp": "None"
+      {
+        "colorMap": "/art/SumoMaterials/Mushroom_bot_Baked_8.png",
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": [
+          0.684979975,
+          0.593630016,
+          0.465274006,
+          1
+        ]
+      },
+      {
+        "diffuseColor": null
+      }
+    ]
   },
-  "vertexColor_glow": {
-    "name": "vertexColor_glow",
-    "mapTo": "vertexColor_glow",
+  "Pumkin_Pie_Side_Baked_3_0001": {
+    "name": "Pumkin_Pie_Side_Baked_3_0001",
+    "mapTo": "Pumkin",
     "class": "Material",
-    "persistentId": "5fe57daa-5c35-47f5-9689-98b5aa61203e",
     "Stages": [
       {
-        "emissive": true,
-        "glow": true,
-        "pixelSpecular": true,
-        "specularPower": 32,
-        "useAnisotropic": true,
-        "vertColor": true
+        "colorMap": "/art/SumoMaterials/Pumkin_Pie_Side_Baked_3_0001.png"
+      },
+      {
+        "colorMap": "/art/SumoMaterials/Pumkin_Pie_in_Baked_2_0001.png"
       },
       {},
-      {},
       {}
-    ],
-    "alphaRef": 0,
-    "annotation": "BUILDINGS",
-    "doubleSided": true,
-    "materialTag0": "beamng",
-    "materialTag1": "building",
-    "translucentBlendOp": "None"
+    ]
   },
-  "wca_objects_construction": {
-    "name": "wca_objects_construction",
-    "mapTo": "wca_objects_construction",
+  "Pumkin_Pie_in_Baked_2_0001": {
+    "name": "Pumkin_Pie_in_Baked_2_0001",
+    "mapTo": "Pumkin",
     "class": "Material",
-    "persistentId": "dca537df-13c3-4779-8579-3aadb8e40218",
     "Stages": [
       {
-        "colorMap": "levels/hirochi_raceway/art/shapes/objects/wca_objects_construction_d.dds",
-        "normalMap": "levels/hirochi_raceway/art/shapes/objects/wca_objects_construction_n.dds",
-        "pixelSpecular": true,
-        "reflectivityMap": "levels/hirochi_raceway/art/shapes/objects/wca_objects_construction_r.dds",
-        "specularMap": "levels/hirochi_raceway/art/shapes/objects/wca_objects_construction_s.dds",
-        "specularPower": 32,
-        "useAnisotropic": true,
-        "vertColor": true
+        "colorMap": "/art/SumoMaterials/Pumkin_Pie_in_Baked_2_0001.png",
+        "diffuseColor": null
+      },
+      {
+        "colorMap": "/art/SumoMaterials/Pumkin_Pie_in_Baked_2_0001.png",
+        "diffuseColor": [
+          0.822443008,
+          0.48269099,
+          0.167661995,
+          1
+        ]
+      },
+      {
+        "colorMap": "/art/SumoMaterials/Pumkin_Pie_in_Baked_2_0001.png",
+        "diffuseColor": [
+          1,
+          0.971599996,
+          0.925540984,
+          1
+        ]
+      },
+      {
+        "diffuseColor": null
+      }
+    ]
+  },
+  "Pumkin_body_Baked_5": {
+    "name": "Pumkin_body_Baked_5",
+    "mapTo": "Pumkin.003",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": null
+      },
+      {
+        "colorMap": "/art/SumoMaterials/Pumkin_top_Baked_4.png",
+        "diffuseColor": [
+          1,
+          0.883309007,
+          0.719345987,
+          1
+        ]
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      }
+    ]
+  },
+  "Pumkin_top_Baked_4": {
+    "name": "Pumkin_top_Baked_4",
+    "mapTo": "Pumkin_1",
+    "class": "Material",
+    "Stages": [
+      {
+        "colorMap": "/art/SumoMaterials/Pumkin_top_Baked_4.png",
+        "diffuseColor": null
+      },
+      {
+        "colorMap": "/art/SumoMaterials/Pumkin_body_Baked_5.png",
+        "diffuseColor": [
+          0.925540984,
+          0.708387017,
+          0.443134993,
+          1
+        ]
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      }
+    ]
+  },
+  "Table.001": {
+    "name": "Table.001",
+    "mapTo": "Table.001",
+    "class": "Material",
+    "Stages": [
+      {
+        "colorMap": "/art/SumoMaterials/Table_Baked_2.png"
+      },
+      {
+        "colorMap": "/art/SumoMaterials/Table_Baked_2.png"
       },
       {},
-      {},
       {}
-    ],
-    "alphaRef": 64,
-    "alphaTest": true,
-    "annotation": "OBSTACLES",
-    "cubemap": "global_cubemap_metalblurred",
-    "materialTag0": "beamng",
-    "materialTag1": "vehicle",
-    "translucentBlendOp": "None"
+    ]
   }
 }

@@ -1,268 +1,492 @@
 {
-  "containers_shipping": {
-    "name": "containers_shipping",
-    "mapTo": "containers_shipping",
+  "Acorns1_003": {
+    "name": "Acorns1_003",
+    "mapTo": "Acorns1.003",
     "class": "Material",
-    "persistentId": "54ab4b85-e352-4833-a604-3fb87a8fddd6",
     "Stages": [
       {
-        "ambientOcclusionMap": "/art/SumoMaterials/t_containers_shipping_ao.data.png",
-        "baseColorFactor": [
-          0.992156982,
-          0.992156982,
-          0.992156982,
-          1
-        ],
-        "baseColorMap": "/art/SumoMaterials/t_containers_shipping_b.color.png",
-        "metallicFactor": 1,
-        "metallicMap": "/art/SumoMaterials/t_containers_shipping_m.data.png",
-        "normalMap": "/art/SumoMaterials/t_containers_shipping_nm.normal.png",
-        "roughnessMap": "/art/SumoMaterials/t_containers_shipping_r.data.png"
+        "colorMap": "/art/SumoMaterials/Acorns_top_Baked_5.png"
       },
       {
-        "metallicMap": "/art/SumoMaterials/t_containers_shipping_m.data.png",
-        "normalMap": "/art/SumoMaterials/t_containers_shipping_nm.normal.png",
-        "opacityMap": "/art/SumoMaterials/t_containers_shipping_o.data.png",
-        "roughnessMap": "/art/SumoMaterials/t_containers_shipping_r.data.png",
-        "vertColor": true
+        "colorMap": "/art/SumoMaterials/Acorns_top_Baked_5.png"
       },
       {},
       {}
-    ],
-    "activeLayers": 2,
-    "annotation": "OBSTACLES",
-    "groundType": "ASPHALT",
-    "materialTag0": "beamng",
-    "materialTag1": "Industrial",
-    "version": 1.5
+    ]
   },
-  "containers_shipping_branding": {
-    "name": "containers_shipping_branding",
-    "mapTo": "containers_shipping_branding",
+  "Acorns1_1": {
+    "name": "Acorns1_1",
+    "mapTo": "Acorns1_1",
     "class": "Material",
-    "persistentId": "db16d184-65a8-47b8-b1c7-39e2f545323d",
     "Stages": [
       {
-        "baseColorFactor": [
-          0.992156982,
-          0.992156982,
-          0.992156982,
-          1
-        ],
-        "baseColorMap": "/art/SumoMaterials/t_containers_shipping_branding_b.color.png",
-        "opacityMap": "/art/SumoMaterials/t_containers_shipping_branding_o.data.png",
-        "roughnessFactor": 0.635999978,
-        "vertColor": true
+        "colorMap": "/art/SumoMaterials/Acorns_top_Baked_5.png"
       },
-      {},
+      {
+        "colorMap": "/art/SumoMaterials/Acorns_bot_Baked_6.png"
+      },
+      {
+        "colorMap": "/art/SumoMaterials/Acorns_bot_Baked_6.png"
+      },
+      {}
+    ]
+  },
+  "Apple_body_Baked_3": {
+    "name": "Apple_body_Baked_3",
+    "mapTo": "Apple_body_Baked_3",
+    "class": "Material",
+    "Stages": [
+      {
+        "colorMap": "/art/SumoMaterials/Apple_body_Baked_3.png"
+      },
+      {
+        "colorMap": "/art/SumoMaterials/Apple_top_Baked_2.png"
+      },
       {},
       {}
-    ],
-    "castShadows": false,
-    "groundType": "ASPHALT",
-    "materialTag0": "beamng",
-    "materialTag1": "Industrial",
-    "translucent": true,
-    "translucentZWrite": true,
-    "version": 1.5
+    ]
   },
-  "barrierfence1": {
-    "name": "barrierfence1",
-    "mapTo": "barrierfence1",
+  "Apple_top_Baked_2": {
+    "name": "Apple_top_Baked_2",
+    "mapTo": "Apple_top_Baked_2",
     "class": "Material",
-    "persistentId": "0f9cb4f2-e030-4267-9777-38684ce1a8e8",
     "Stages": [
       {
-        "ambientOcclusionMap": "/levels/automation_test_track/art/shapes/objects/t_barrierfence_01_ao.data.png",
-        "baseColorMap": "/levels/automation_test_track/art/shapes/objects/t_barrierfence_01_b.color.png",
-        "metallicFactor": 1,
-        "metallicMap": "/levels/automation_test_track/art/shapes/objects/t_barrierfence_01_m.data.png",
-        "normalMap": "/levels/automation_test_track/art/shapes/objects/barrierfence1_n.dds",
-        "pixelSpecular": true,
-        "roughnessMap": "/levels/automation_test_track/art/shapes/objects/t_barrierfence_01_r.data.png"
+        "colorMap": "/art/SumoMaterials/Apple_top_Baked_2.png"
       },
       {
-        "metallicFactor": null,
-        "pixelSpecular": null
+        "colorMap": "/art/SumoMaterials/Apple_body_Baked_3.png"
       },
-      {
-        "metallicFactor": null,
-        "pixelSpecular": null
-      },
-      {
-        "metallicFactor": null,
-        "pixelSpecular": null
-      }
-    ],
-    "alphaRef": 0,
-    "annotation": "GUARD_RAIL",
-    "cubemap": "cubemap_automation_reflection",
-    "materialTag0": "beamng",
-    "materialTag1": "vehicle",
-    "translucentBlendOp": "None",
-    "version": 1.5
+      {},
+      {}
+    ]
   },
-  "catchfence": {
-    "name": "catchfence",
-    "mapTo": "catchfence",
+  "Candle_body_Baked_4": {
+    "name": "Candle_body_Baked_4",
+    "mapTo": "Candle1_1",
     "class": "Material",
-    "persistentId": "de3dd95c-bf76-4e51-8a74-a7a85ef666fc",
     "Stages": [
       {
-        "baseColorMap": "/levels/automation_test_track/art/shapes/objects/t_catchfence_01_b.color.png",
-        "metallicFactor": 1,
-        "metallicMap": "/levels/automation_test_track/art/shapes/objects/t_catchfence_01_m.data.png",
-        "normalMap": "/levels/automation_test_track/art/shapes/objects/t_catchfence_01_nm.normal.png",
-        "opacityMap": "/levels/automation_test_track/art/shapes/objects/t_catchfence_01_o.data.png",
-        "pixelSpecular": true,
-        "roughnessMap": "/levels/automation_test_track/art/shapes/objects/t_catchfence_01_r.data.png",
-        "scrollDir": [
-          0,
-          0.100000001
+        "colorMap": "/art/SumoMaterials/Candle_body_Baked_4.png"
+      },
+      {
+        "colorMap": "/art/SumoMaterials/Candle_fire_Baked_2.png"
+      },
+      {
+        "colorMap": "/art/SumoMaterials/Candle_line_Baked_3.png"
+      },
+      {}
+    ]
+  },
+  "Candle_body_Baked_7": {
+    "name": "Candle_body_Baked_7",
+    "mapTo": "Candle1.004",
+    "class": "Material",
+    "Stages": [
+      {
+        "colorMap": "/art/SumoMaterials/Candle_body_Baked_7.png",
+        "diffuseColor": null
+      },
+      {
+        "colorMap": "/art/SumoMaterials/Candle_fire_Baked_5.png",
+        "diffuseColor": null
+      },
+      {
+        "colorMap": "/art/SumoMaterials/Candle_line_Baked_6.png",
+        "diffuseColor": [
+          2.54509807,
+          2,
+          0.101961002,
+          3.89019608
         ]
       },
       {
-        "metallicFactor": null,
-        "pixelSpecular": null,
-        "scrollDir": null
-      },
-      {
-        "metallicFactor": null,
-        "pixelSpecular": null,
-        "scrollDir": null
-      },
-      {
-        "metallicFactor": null,
-        "pixelSpecular": null,
-        "scrollDir": null
+        "diffuseColor": null
       }
-    ],
-    "alphaRef": 39,
-    "alphaTest": true,
-    "annotation": "OBSTACLES",
-    "cubemap": "cubemap_automation_reflection",
-    "doubleSided": true,
-    "groundType": "METAL",
-    "materialTag0": "beamng",
-    "materialTag1": "vehicle",
-    "translucentBlendOp": "None",
-    "version": 1.5
+    ]
   },
-  "guardrails": {
-    "name": "guardrails",
-    "mapTo": "guardrails",
+  "Candle_fire_Baked_2": {
+    "name": "Candle_fire_Baked_2",
+    "mapTo": "Candle1_2",
     "class": "Material",
-    "persistentId": "b5750195-545f-4381-baec-204df8f9e532",
     "Stages": [
       {
-        "baseColorMap": "/levels/automation_test_track/art/shapes/roads/t_guardrails_01_b.color.png",
-        "detailScale": [
-          4,
-          0.5
-        ],
-        "metallicFactor": 0.800000012,
-        "metallicMap": "/levels/automation_test_track/art/shapes/roads/t_guardrails_01_m.data.png",
-        "normalMap": "/levels/automation_test_track/art/shapes/roads/guardrails_n.dds",
-        "opacityMap": "/levels/automation_test_track/art/shapes/roads/t_guardrails_01_o.data.png",
-        "pixelSpecular": true,
-        "roughnessMap": "/levels/automation_test_track/art/shapes/roads/t_guardrails_01_r.data.png",
-        "vertColor": true
+        "colorMap": "/art/SumoMaterials/Candle_fire_Baked_2.png"
       },
       {
-        "detailScale": null,
-        "metallicFactor": null,
-        "pixelSpecular": null,
-        "vertColor": null
+        "colorMap": "/art/SumoMaterials/Candle_body_Baked_4.png"
       },
-      {
-        "detailScale": null,
-        "metallicFactor": null,
-        "pixelSpecular": null,
-        "vertColor": null
-      },
-      {
-        "detailScale": null,
-        "metallicFactor": null,
-        "pixelSpecular": null,
-        "vertColor": null
-      }
-    ],
-    "alphaRef": 174,
-    "alphaTest": true,
-    "annotation": "GUARD_RAIL",
-    "cubemap": "cubemap_automation_reflection",
-    "groundType": "METAL",
-    "materialTag0": "beamng",
-    "materialTag1": "vehicle",
-    "translucent": true,
-    "translucentBlendOp": "None",
-    "translucentRecvShadows": true,
-    "version": 1.5
+      {},
+      {}
+    ]
   },
-  "poles_fences": {
-    "name": "poles_fences",
-    "mapTo": "poles_fences",
+  "Candle_fire_Baked_5": {
+    "name": "Candle_fire_Baked_5",
+    "mapTo": "Candle1_2",
     "class": "Material",
-    "persistentId": "034d5c80-89d9-4ac0-91aa-c0960e2cba5a",
     "Stages": [
       {
-        "ambientOcclusionMap": "/levels/automation_test_track/art/shapes/objects/t_poles_fences_ao.data.png",
-        "baseColorMap": "/levels/automation_test_track/art/shapes/objects/t_poles_fences_b.color.png",
-        "normalMap": "/levels/automation_test_track/art/shapes/objects/t_poles_fences_nm.normal.png",
-        "pixelSpecular": true,
-        "roughnessFactor": 0.690170288,
-        "roughnessMap": "/levels/automation_test_track/art/shapes/objects/t_poles_fences_r.data.png"
+        "colorMap": "/art/SumoMaterials/Candle_fire_Baked_5.png"
       },
       {
-        "pixelSpecular": null,
-        "roughnessFactor": null
+        "colorMap": "/art/SumoMaterials/Candle_body_Baked_7.png"
       },
-      {
-        "pixelSpecular": null,
-        "roughnessFactor": null
-      },
-      {
-        "pixelSpecular": null,
-        "roughnessFactor": null
-      }
-    ],
-    "alphaRef": 0,
-    "annotation": "OBSTACLES",
-    "groundType": "METAL",
-    "materialTag0": "beamng",
-    "materialTag1": "vehicle",
-    "translucentBlendOp": "None",
-    "version": 1.5
+      {},
+      {}
+    ]
   },
-  "tirewall": {
-    "name": "tirewall",
-    "mapTo": "tirewall",
+  "Candle_line_Baked_3": {
+    "name": "Candle_line_Baked_3",
+    "mapTo": "Candle1_2",
     "class": "Material",
-    "persistentId": "0de23ec5-8f6c-4ac8-9062-81ed2ede7965",
     "Stages": [
       {
-        "ambientOcclusionMap": "/levels/automation_test_track/art/shapes/objects/t_tirewall_01_ao.data.png",
-        "baseColorMap": "/levels/automation_test_track/art/shapes/objects/t_tirewall_01_b.color.png",
-        "normalMap": "/levels/automation_test_track/art/shapes/objects/t_tirewall_01_nm.normal.png",
-        "pixelSpecular": true,
-        "roughnessMap": "/levels/automation_test_track/art/shapes/objects/t_tirewall_01_r.data.png"
+        "colorMap": "/art/SumoMaterials/Candle_line_Baked_3.png"
       },
       {
-        "pixelSpecular": null
+        "colorMap": "/art/SumoMaterials/Candle_fire_Baked_2.png"
+      },
+      {},
+      {}
+    ]
+  },
+  "Candle_line_Baked_6": {
+    "name": "Candle_line_Baked_6",
+    "mapTo": "Candle1_2",
+    "class": "Material",
+    "Stages": [
+      {
+        "colorMap": "/art/SumoMaterials/Candle_line_Baked_6.png",
+        "diffuseColor": null
       },
       {
-        "pixelSpecular": null
+        "colorMap": "/art/SumoMaterials/Candle_fire_Baked_5.png",
+        "diffuseColor": null
       },
       {
-        "pixelSpecular": null
+        "diffuseColor": [
+          1,
+          0.993296027,
+          0.822443008,
+          1
+        ]
+      },
+      {
+        "diffuseColor": null
+      }
+    ]
+  },
+  "Mat.014": {
+    "name": "Mat.014",
+    "mapTo": "Mat.014",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.800000012,
+          0.800000012,
+          0.800000012,
+          1
+        ]
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
       }
     ],
-    "alphaRef": 0,
-    "annotation": "OBSTACLES",
-    "groundType": "METAL",
-    "materialTag0": "beamng",
-    "materialTag1": "vehicle",
-    "translucentBlendOp": "None",
-    "version": 1.5
+    "translucentBlendOp": "None"
+  },
+  "Mat.015": {
+    "name": "Mat.015",
+    "mapTo": "Mat.015",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.873992026,
+          0.731881976,
+          0.363388985,
+          1
+        ]
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "colorMap": "/art/SumoMaterials/Pumkin_Pie_in_Baked_2_0001.png",
+        "diffuseColor": [
+          0.490240008,
+          0.490240008,
+          0.490240008,
+          1
+        ]
+      },
+      {
+        "diffuseColor": [
+          0.398597986,
+          0.271164,
+          0.115502998,
+          1
+        ]
+      }
+    ],
+    "translucentBlendOp": "None"
+  },
+  "Mat.016": {
+    "name": "Mat.016",
+    "mapTo": "Mat.016",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.478785008,
+          0.306019992,
+          0.177130997,
+          1
+        ]
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      }
+    ],
+    "translucentBlendOp": "None"
+  },
+  "Mat.017": {
+    "name": "Mat.017",
+    "mapTo": "Mat.017",
+    "class": "Material",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ],
+    "translucentBlendOp": "None"
+  },
+  "Mat.018": {
+    "name": "Mat.018",
+    "mapTo": "Mat.018",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.00447000004,
+          0.490240008,
+          0.118032999,
+          1
+        ]
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      }
+    ],
+    "translucentBlendOp": "None"
+  },
+  "Mat.019": {
+    "name": "Mat.019",
+    "mapTo": "Mat.019",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.971361995,
+          0.962934971,
+          0.854525983,
+          1
+        ]
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      }
+    ],
+    "translucentBlendOp": "None"
+  },
+  "Mushroom_bot_Baked_8": {
+    "name": "Mushroom_bot_Baked_8",
+    "mapTo": "Mushroom1.002",
+    "class": "Material",
+    "Stages": [
+      {
+        "colorMap": "/art/SumoMaterials/Mushroom_bot_Baked_8.png",
+        "diffuseColor": null
+      },
+      {
+        "colorMap": "/art/SumoMaterials/Mushroom_top_Baked_7.png",
+        "diffuseColor": [
+          0.810988009,
+          0.810988009,
+          0.810988009,
+          1
+        ]
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      }
+    ]
+  },
+  "Mushroom_top_Baked_7": {
+    "name": "Mushroom_top_Baked_7",
+    "mapTo": "Mushroom1_1",
+    "class": "Material",
+    "Stages": [
+      {
+        "colorMap": "/art/SumoMaterials/Mushroom_top_Baked_7.png",
+        "diffuseColor": null
+      },
+      {
+        "colorMap": "/art/SumoMaterials/Mushroom_bot_Baked_8.png",
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": [
+          0.684979975,
+          0.593630016,
+          0.465274006,
+          1
+        ]
+      },
+      {
+        "diffuseColor": null
+      }
+    ]
+  },
+  "Pumkin_Pie_Side_Baked_3_0001": {
+    "name": "Pumkin_Pie_Side_Baked_3_0001",
+    "mapTo": "Pumkin",
+    "class": "Material",
+    "Stages": [
+      {
+        "colorMap": "/art/SumoMaterials/Pumkin_Pie_Side_Baked_3_0001.png"
+      },
+      {
+        "colorMap": "/art/SumoMaterials/Pumkin_Pie_in_Baked_2_0001.png"
+      },
+      {},
+      {}
+    ]
+  },
+  "Pumkin_Pie_in_Baked_2_0001": {
+    "name": "Pumkin_Pie_in_Baked_2_0001",
+    "mapTo": "Pumkin",
+    "class": "Material",
+    "Stages": [
+      {
+        "colorMap": "/art/SumoMaterials/Pumkin_Pie_in_Baked_2_0001.png",
+        "diffuseColor": null
+      },
+      {
+        "colorMap": "/art/SumoMaterials/Pumkin_Pie_in_Baked_2_0001.png",
+        "diffuseColor": [
+          0.822443008,
+          0.48269099,
+          0.167661995,
+          1
+        ]
+      },
+      {
+        "colorMap": "/art/SumoMaterials/Pumkin_Pie_in_Baked_2_0001.png",
+        "diffuseColor": [
+          1,
+          0.971599996,
+          0.925540984,
+          1
+        ]
+      },
+      {
+        "diffuseColor": null
+      }
+    ]
+  },
+  "Pumkin_body_Baked_5": {
+    "name": "Pumkin_body_Baked_5",
+    "mapTo": "Pumkin.003",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": null
+      },
+      {
+        "colorMap": "/art/SumoMaterials/Pumkin_top_Baked_4.png",
+        "diffuseColor": [
+          1,
+          0.883309007,
+          0.719345987,
+          1
+        ]
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      }
+    ]
+  },
+  "Pumkin_top_Baked_4": {
+    "name": "Pumkin_top_Baked_4",
+    "mapTo": "Pumkin_1",
+    "class": "Material",
+    "Stages": [
+      {
+        "colorMap": "/art/SumoMaterials/Pumkin_top_Baked_4.png",
+        "diffuseColor": null
+      },
+      {
+        "colorMap": "/art/SumoMaterials/Pumkin_body_Baked_5.png",
+        "diffuseColor": [
+          0.925540984,
+          0.708387017,
+          0.443134993,
+          1
+        ]
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      }
+    ]
+  },
+  "Table.001": {
+    "name": "Table.001",
+    "mapTo": "Table.001",
+    "class": "Material",
+    "Stages": [
+      {
+        "colorMap": "/art/SumoMaterials/Table_Baked_2.png"
+      },
+      {
+        "colorMap": "/art/SumoMaterials/Table_Baked_2.png"
+      },
+      {},
+      {}
+    ]
   }
 }
