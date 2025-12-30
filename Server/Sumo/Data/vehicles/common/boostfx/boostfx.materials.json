@@ -1,0 +1,54 @@
+{
+	"mat_ab_heat":
+	{
+	  "name": "mat_ab_heat",
+	  "mapTo": "mat_ab_heat",
+	  "class": "Material",
+	  "Stages": [
+	  {
+		  "useAnisotropic":true,
+		  "emissiveFactor":[ 5, 1, 0 ],
+		  "roughnessFactor": 1,
+		  "opacityMap":"/vehicles/common/boostfx/boostflame_heat.dds",
+		  "opacityMapUseUV": 0
+	  },
+	  {},
+	  {},
+	  {}
+	  ],
+	  "alphaRef": 100,
+	  "alphaTest": true,
+	  "doubleSided":true,
+	  "translucent":true,
+	  "translucentBlendOp":"AddAlpha",
+	  "materialTag0": "beamng",
+	  "materialTag1": "vehicle",
+	  "version": 1.5
+	},
+	"mat_ab_shot":
+	{
+	  "name": "mat_ab_shot",
+	  "mapTo": "mat_ab_shot",
+	  "class": "Material",
+	  "Stages": [
+	  {
+		  "useAnisotropic":true,
+		  "emissiveFactor":[ 0, 1, 5 ],
+		  "roughnessFactor": 1,
+		  "opacityMap":"/vehicles/common/boostfx/boostflame_power.dds",
+		  "opacityMapUseUV": 0
+	  },
+	  {},
+	  {},
+	  {}
+	  ],
+	  "alphaRef": 100,
+	  "alphaTest": true,
+	  "doubleSided":true,
+	  "translucent":true,
+	  "translucentBlendOp":"AddAlpha",
+	  "materialTag0": "beamng",
+	  "materialTag1": "vehicle",
+	  "version": 1.5
+	}
+}

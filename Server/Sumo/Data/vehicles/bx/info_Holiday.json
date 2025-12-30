@@ -1,0 +1,37 @@
+{
+  "0-100 km/h":7.4,
+  "0-100 mph":18.3,
+  "0-200 km/h":32.8,
+  "0-60 mph":7,
+  "100-0 km/h":34,
+  "100-200 km/h":25.4,
+  "60-0 mph":103.8,
+  "60-100 mph":11.3,
+  "BoundingBox":[
+    [
+      -0.6993,
+      -2.0871,
+      -0.2107
+    ],
+    [
+      1.1993,
+      2.3743,
+      1.0798
+    ]
+  ],
+  "Braking G":1.157,
+  "Drivetrain":"RWD",
+  "Fuel Type":"Gasoline",
+  "Induction Type":"NA",
+  "Off-Road Score":34,
+  "Power":168,
+  "PowerPeakRPM":6350,
+  "Propulsion":"ICE",
+  "Top Speed":61.623459534166,
+  "Torque":195,
+  "TorquePeakRPM":"4150 - 5750",
+  "Transmission":"Manual",
+  "Weight":1180,
+  "Weight/Power":7.0238095238095
+  "Description":"This 200BX starred in the music video for Rudolph the reindeer's failed rap music single, '24's On the Sleigh' and was sold at wholesale to fund his crippling oats addiction."
+}

@@ -1,0 +1,37 @@
+{
+  "0-100 km/h":9.5,
+  "0-100 mph":21.9,
+  "0-200 km/h":41,
+  "0-60 mph":9,
+  "100-0 km/h":34.7,
+  "100-200 km/h":31.5,
+  "60-0 mph":105.3,
+  "60-100 mph":12.8,
+  "BoundingBox":[
+    [
+      -0.529,
+      -1.778,
+      -0.223
+    ],
+    [
+      1.175,
+      2.578,
+      1.208
+    ]
+  ],
+  "Braking G":1.132,
+  "Drivetrain":"FWD",
+  "Fuel Type":"Gasoline",
+  "Induction Type":"NA",
+  "Off-Road Score":27,
+  "Power":153,
+  "PowerPeakRPM":"5800 - 6800",
+  "Propulsion":"ICE",
+  "Top Speed":62.615252823845,
+  "Torque":200,
+  "TorquePeakRPM":"3500 - 5100",
+  "Transmission":"Manual",
+  "Weight":1320,
+  "Weight/Power":8.6274509803922
+  "Description":"This Sunburst was totaled by the North Pole insurance company after a minor, easily repairable fender bender with an out of control sleigh. Mrs. Claus was devistated. The other driver recieved coal."
+}

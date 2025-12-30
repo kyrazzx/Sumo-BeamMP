@@ -1,0 +1,999 @@
+{
+    "pineTree_001": {
+    "name": "pineTree_001",
+    "mapTo": "pineTree.001",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0,
+          0.310000002,
+          0.25,
+          1
+        ]
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      }
+    ],
+    "translucentBlendOp": "None"
+  },
+  "pineTree_002": {
+    "name": "pineTree_002",
+    "mapTo": "pineTree.002",
+    "class": "Material",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ],
+    "translucentBlendOp": "None"
+  },
+  "pineTree_003": {
+    "name": "pineTree_003",
+    "mapTo": "pineTree.003",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.189999998,
+          0.0900000036,
+          0.0599999987,
+          1
+        ]
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      }
+    ],
+    "translucentBlendOp": "None"
+  },
+  "deadTree_001": {
+    "name": "deadTree_001",
+    "mapTo": "deadTree.001",
+    "class": "Material",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ],
+    "translucentBlendOp": "None"
+  },
+  "deadTree_002": {
+    "name": "deadTree_002",
+    "mapTo": "deadTree.002",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.249678999,
+          0.178771004,
+          0.0637700036,
+          1
+        ]
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      }
+    ],
+    "translucentBlendOp": "None"
+  },
+  "candyCaneRed_001": {
+    "name": "candyCaneRed_001",
+    "mapTo": "candyCaneRed.001",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          1,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      }
+    ],
+    "translucentBlendOp": "None"
+  },
+  "candyCaneWhite_001": {
+    "name": "candyCaneWhite_001",
+    "mapTo": "candyCaneWhite.001",
+    "class": "Material",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ],
+    "translucentBlendOp": "None"
+  },
+  "christmasDeer_001": {
+    "name": "christmasDeer_001",
+    "mapTo": "christmasDeer.001",
+    "class": "Material",
+    "Stages": [
+      {
+        "colorMap": "/REPLACE_ME/PUSHILIN_deer"
+      },
+      {},
+      {},
+      {}
+    ],
+    "translucentBlendOp": "None"
+  },
+  "christmasIslandDual_001": {
+    "name": "christmasIslandDual_001",
+    "mapTo": "christmasIslandDual.001",
+    "class": "Material",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ],
+    "translucentBlendOp": "None"
+  },
+  "christmasIslandDual_002": {
+    "name": "christmasIslandDual_002",
+    "mapTo": "christmasIslandDual.002",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.249678999,
+          0.160297006,
+          0.065200001,
+          1
+        ]
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      }
+    ],
+    "translucentBlendOp": "None"
+  },
+  "presents_001": {
+    "name": "presents_001",
+    "mapTo": "presents.001",
+    "class": "Material",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ],
+    "translucentBlendOp": "None"
+  },
+  "presents_002": {
+    "name": "presents_002",
+    "mapTo": "presents.002",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.910000026,
+          0.0500000007,
+          0.0299999993,
+          1
+        ]
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      }
+    ],
+    "translucentBlendOp": "None"
+  },
+  "presents_003": {
+    "name": "presents_003",
+    "mapTo": "presents.003",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.0700000003,
+          0.439999998,
+          0.0799999982,
+          1
+        ]
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      }
+    ],
+    "translucentBlendOp": "None"
+  },
+  "sled_001": {
+    "name": "sled_001",
+    "mapTo": "sled.001",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.189999998,
+          0.0900000036,
+          0.0599999987,
+          1
+        ]
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      }
+    ],
+    "translucentBlendOp": "None"
+  },
+  "christmasSnowman_001": {
+    "name": "christmasSnowman_001",
+    "mapTo": "christmasSnowman.001",
+    "class": "Material",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ],
+    "translucentBlendOp": "None"
+  },
+  "christmasSnowman_002": {
+    "name": "christmasSnowman_002",
+    "mapTo": "christmasSnowman.002",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.0599999987,
+          0.100000001,
+          0.129999995,
+          1
+        ]
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      }
+    ],
+    "translucentBlendOp": "None"
+  },
+  "christmasSnowman_003": {
+    "name": "christmasSnowman_003",
+    "mapTo": "christmasSnowman.003",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          1,
+          0.330000013,
+          0,
+          1
+        ]
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      }
+    ],
+    "translucentBlendOp": "None"
+  },
+  "christmasSnowman_004": {
+    "name": "christmasSnowman_004",
+    "mapTo": "christmasSnowman.004",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          1,
+          0.0900000036,
+          0.00999999978,
+          1
+        ]
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      }
+    ],
+    "translucentBlendOp": "None"
+  },
+  "christmasSnowman_005": {
+    "name": "christmasSnowman_005",
+    "mapTo": "christmasSnowman.005",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.189999998,
+          0.0900000036,
+          0.0599999987,
+          1
+        ]
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      }
+    ],
+    "translucentBlendOp": "None"
+  },
+  "christmasSnowman_006": {
+    "name": "christmasSnowman_006",
+    "mapTo": "christmasSnowman.006",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          1,
+          0.610000014,
+          0.25,
+          1
+        ]
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      }
+    ],
+    "translucentBlendOp": "None"
+  }, 
+  "snowTerrainCorner_001": {
+    "name": "snowTerrainCorner_001",
+    "mapTo": "snowTerrainCorner.001",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.209585994,
+          0.926550984,
+          1,
+          1
+        ]
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      }
+    ],
+    "translucentBlendOp": "None"
+  },
+  "snowTerrainCorner_002": {
+    "name": "snowTerrainCorner_002",
+    "mapTo": "snowTerrainCorner.002",
+    "class": "Material",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ],
+    "translucentBlendOp": "None"
+  },
+  "terrainStraight_001": {
+    "name": "terrainStraight_001",
+    "mapTo": "terrainStraight.001",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.283758998,
+          0.958056986,
+          1,
+          1
+        ]
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      }
+    ],
+    "translucentBlendOp": "None"
+  },
+  "terrainStraight_002": {
+    "name": "terrainStraight_002",
+    "mapTo": "terrainStraight.002",
+    "class": "Material",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ],
+    "translucentBlendOp": "None"
+  },
+  "terrainStraightLong_001": {
+    "name": "terrainStraightLong_001",
+    "mapTo": "terrainStraightLong.001",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.25,
+          0.956080019,
+          1,
+          1
+        ]
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      }
+    ],
+    "translucentBlendOp": "None"
+  },
+  "terrainStraightLong_002": {
+    "name": "terrainStraightLong_002",
+    "mapTo": "terrainStraightLong.002",
+    "class": "Material",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ],
+    "translucentBlendOp": "None"
+  },
+  "christmasTree_001": {
+    "name": "christmasTree_001",
+    "mapTo": "christmasTree.001",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.282871008,
+          0.776621997,
+          0.330426991,
+          1
+        ]
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      }
+    ],
+    "translucentBlendOp": "None"
+  },
+  "christmasTree_002": {
+    "name": "christmasTree_002",
+    "mapTo": "christmasTree.002",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.455873996,
+          0.292676002,
+          0.119043998,
+          1
+        ]
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      }
+    ],
+    "translucentBlendOp": "None"
+  },
+  "christmasTree_003": {
+    "name": "christmasTree_003",
+    "mapTo": "christmasTree.003",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.0660919994,
+          0.364232004,
+          0.0158380009,
+          1
+        ]
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      }
+    ],
+    "translucentBlendOp": "None"
+  },
+  "christmasTree_004": {
+    "name": "christmasTree_004",
+    "mapTo": "christmasTree.004",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.341320992,
+          0.184768006,
+          0.0402569994,
+          1
+        ]
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      }
+    ],
+    "translucentBlendOp": "None"
+  },
+  "christmasTree_005": {
+    "name": "christmasTree_005",
+    "mapTo": "christmasTree.005",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.753711998,
+          0.458332986,
+          0.0975290015,
+          1
+        ]
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      }
+    ],
+    "translucentBlendOp": "None"
+  },
+  "christmasTree_006": {
+    "name": "christmasTree_006",
+    "mapTo": "christmasTree.006",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.158037007,
+          0.777086973,
+          1,
+          1
+        ]
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      }
+    ],
+    "translucentBlendOp": "None"
+  },
+  "christmasTree_007": {
+    "name": "christmasTree_007",
+    "mapTo": "christmasTree.007",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.115653999,
+          0.42859599,
+          0.639159024,
+          1
+        ]
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      }
+    ],
+    "translucentBlendOp": "None"
+  },
+  "christmasTree_008": {
+    "name": "christmasTree_008",
+    "mapTo": "christmasTree.008",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.994271994,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      }
+    ],
+    "translucentBlendOp": "None"
+  },
+  "christmasTree_009": {
+    "name": "christmasTree_009",
+    "mapTo": "christmasTree.009",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.490240008,
+          0.252240986,
+          0.0325490013,
+          1
+        ]
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      }
+    ],
+    "translucentBlendOp": "None"
+  },
+  "christmasTree_010": {
+    "name": "christmasTree_010",
+    "mapTo": "christmasTree.010",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          1,
+          0.862043977,
+          0.0205739997,
+          1
+        ]
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      }
+    ],
+    "translucentBlendOp": "None"
+  },
+  "christmasTree_011": {
+    "name": "christmasTree_011",
+    "mapTo": "christmasTree.011",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          1,
+          0.687317014,
+          0,
+          1
+        ]
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      }
+    ],
+    "translucentBlendOp": "None"
+  },
+  "christmasTree_012": {
+    "name": "christmasTree_012",
+    "mapTo": "christmasTree.012",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.816716015,
+          0.758336008,
+          0.704446971,
+          1
+        ]
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      }
+    ],
+    "translucentBlendOp": "None"
+  },
+  "christmasTree_013": {
+    "name": "christmasTree_013",
+    "mapTo": "christmasTree.013",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          1,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      }
+    ],
+    "translucentBlendOp": "None"
+  },
+  "christmasTree_014": {
+    "name": "christmasTree_014",
+    "mapTo": "christmasTree.014",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.605022013,
+          0,
+          1,
+          1
+        ]
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      }
+    ],
+    "translucentBlendOp": "None"
+  },
+  "christmasTree_015": {
+    "name": "christmasTree_015",
+    "mapTo": "christmasTree.015",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          1,
+          0.962243021,
+          0,
+          1
+        ]
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      }
+    ],
+    "translucentBlendOp": "None"
+  },
+  "christmasTree_016": {
+    "name": "christmasTree_016",
+    "mapTo": "christmasTree.016",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.696434975,
+          0.686653972,
+          0.560811996,
+          1
+        ]
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      }
+    ],
+    "translucentBlendOp": "None"
+  },
+  "christmasTree_017": {
+    "name": "christmasTree_017",
+    "mapTo": "christmasTree.017",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          1,
+          0.721683025,
+          0,
+          1
+        ],
+        "glow": true,
+        "glowFactor": [
+          36.0823555,
+          5.01568699,
+          2.65098
+        ],
+        "pixelSpecular": true,
+        "specular": [
+          5.88627481,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "diffuseColor": null,
+        "glow": null,
+        "glowFactor": null,
+        "pixelSpecular": null,
+        "specular": null
+      },
+      {
+        "diffuseColor": null,
+        "glow": null,
+        "glowFactor": null,
+        "pixelSpecular": null,
+        "specular": null
+      },
+      {
+        "diffuseColor": null,
+        "glow": null,
+        "glowFactor": null,
+        "pixelSpecular": null,
+        "specular": null
+      }
+    ],
+    "translucentBlendOp": "None"
+  },
+  "christmasTree_018": {
+    "name": "christmasTree_018",
+    "mapTo": "christmasTree.018",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.633431017,
+          0.629657984,
+          0.626174986,
+          1
+        ]
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      }
+    ],
+    "translucentBlendOp": "None"
+  }
+}

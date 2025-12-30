@@ -1,0 +1,35 @@
+{
+  "0-100 km/h":7.8,
+  "0-100 mph":21.3,
+  "0-60 mph":7.4,
+  "100-0 km/h":34.3,
+  "60-0 mph":104,
+  "60-100 mph":13.8,
+  "BoundingBox":[
+    [
+      -0.35,
+      -2.04,
+      -0.216
+    ],
+    [
+      1.65,
+      2.95,
+      1.41
+    ]
+  ],
+  "Braking G":1.145,
+  "Drivetrain":"RWD",
+  "Fuel Type":"Gasoline",
+  "Induction Type":"NA",
+  "Off-Road Score":35,
+  "Power":203,
+  "PowerPeakRPM":"4850 - 5750",
+  "Propulsion":"ICE",
+  "Top Speed":49.614665819846,
+  "Torque":330,
+  "TorquePeakRPM":"2750 - 4000",
+  "Transmission":"Manual",
+  "Weight":1660,
+  "Weight/Power":8.1773399014778
+  "Description": "This Burnside was used in Frosty the Snowman's first DUI, and was sold at police auction after his license was suspended after he was caught driving with Christmas cheer above the legal limit." 
+}

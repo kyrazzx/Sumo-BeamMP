@@ -1,0 +1,35 @@
+{
+  "0-100 km/h":9.8,
+  "0-100 mph":26.7,
+  "0-60 mph":9.3,
+  "100-0 km/h":34,
+  "60-0 mph":104.2,
+  "60-100 mph":17.4,
+  "BoundingBox":[
+    [
+      -0.57,
+      -1.85,
+      -0.238
+    ],
+    [
+      1.23,
+      2.07,
+      1.13
+    ]
+  ],
+  "Braking G":1.157,
+  "Drivetrain":"FWD",
+  "Fuel Type":"Gasoline",
+  "Induction Type":"NA",
+  "Off-Road Score":34,
+  "Power":102,
+  "PowerPeakRPM":6200,
+  "Propulsion":"ICE",
+  "Top Speed":51.511283949881,
+  "Torque":135,
+  "TorquePeakRPM":"3850 - 5200",
+  "Transmission":"Manual",
+  "Weight":995,
+  "Weight/Power":9.7549019607843
+  "Description": "This Covet was impounded by the police after it was identified by witnesses as being used in a drive by snowball assualt on the Easter Bunnies of upstate New York by the notorious Gingerbread Men gang."
+}

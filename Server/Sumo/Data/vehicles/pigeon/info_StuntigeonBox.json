@@ -1,0 +1,30 @@
+{
+  "0-100 km/h":15.8,
+  "0-60 mph":14.6,
+  "BoundingBox":[
+    [
+      -0.26,
+      -1.261,
+      -0.2033
+    ],
+    [
+      1.08,
+      2.019,
+      1.302
+    ]
+  ],
+  "Drivetrain":"RWD",
+  "Fuel Type":"Gasoline",
+  "Induction Type":"NA",
+  "Off-Road Score":39,
+  "Power":44,
+  "PowerPeakRPM":6200,
+  "Propulsion":"ICE",
+  "Top Speed":32.708215036368,
+  "Torque":55,
+  "TorquePeakRPM":"5000 - 6300",
+  "Transmission":"Manual",
+  "Weight":535,
+  "Weight/Power":12.159090909091
+  "Description":"This van style Pigeon lived its life on the streets of Tokyo, helping move deliver parts for a racing shop. When the shop fell on hard times, the owner took out a loan with the Yakuza to help stay afloat. Needing money quickly, the shop owner took his old delivery van, reinforced and armored it up and entered it in the Stunt Arena to hopefully pay off his debts once and for all."
+}

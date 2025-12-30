@@ -1,0 +1,52 @@
+{
+"boostfx1": {
+    "information":{
+        "authors":"Sideswipe",
+        "name":"Boost FX Test",
+        "value":0,
+    },
+	
+	 
+    "slotType" : "wigeon_mod",
+	
+	
+	"controller": [
+    ["fileName"],
+	["ab3", {"engBoostStrengthBase":100, "engBoostStrengthMax":125 "useTime":4.4, "coolingTime":4 "critTime":1.6, "critLockoutTime":3, "debugVisuals":false, "numFlames":3}],
+    ],
+	
+
+    "props": [
+        ["func",     "mesh",        "idRef:", "idX:", "idY:","baseRotation",        "rotation",            "translation",         "min", "max", "offset", "multiplier"],
+		
+        ["ab_rot", "ab_heat_1", "f3r","f2l","f2r", {"x":-55, "y":0, "z":90}, {"x":0, "y":360, "z":0}, {"x":0, "y":0, "z":0}, 0, 1, 0, 1, {"baseTranslation":{"x":0.18, "y":-1.42, "z":0.182}}]
+        ["ab_rot", "ab_heat_2", "f3r","f2l","f2r", {"x":-55, "y":0, "z":90}, {"x":0, "y":360, "z":0}, {"x":0, "y":0, "z":0}, 0, 1, 0, 1, {"baseTranslation":{"x":0.78, "y":-1.74, "z":0.182}}]
+		
+		]
+	 
+	 
+	"glowMap": {
+		"mat_ab_heat_1a":{"advancedFunction":{"triggers":{"":"ab_flamesize_1"}, "cmd":"(ab_flamesize_1>9) and 1 or 0"}, "off":"invis", "on":"mat_ab_heat"},
+		"mat_ab_heat_1b":{"advancedFunction":{"triggers":{"":"ab_flamesize_1"}, "cmd":"(ab_flamesize_1>=8 and ab_flamesize_1<9) and 1 or 0"}, "off":"invis", "on":"mat_ab_heat"},
+		"mat_ab_heat_1c":{"advancedFunction":{"triggers":{"":"ab_flamesize_1"}, "cmd":"(ab_flamesize_1>=7 and ab_flamesize_1<8) and 1 or 0"}, "off":"invis", "on":"mat_ab_heat"},
+		"mat_ab_heat_1d":{"advancedFunction":{"triggers":{"":"ab_flamesize_1"}, "cmd":"(ab_flamesize_1>=6 and ab_flamesize_1<7) and 1 or 0"}, "off":"invis", "on":"mat_ab_heat"},
+		"mat_ab_heat_1e":{"advancedFunction":{"triggers":{"":"ab_flamesize_1"}, "cmd":"(ab_flamesize_1>=5 and ab_flamesize_1<6) and 1 or 0"}, "off":"invis", "on":"mat_ab_heat"},
+		"mat_ab_heat_1f":{"advancedFunction":{"triggers":{"":"ab_flamesize_1"}, "cmd":"(ab_flamesize_1>=4 and ab_flamesize_1<5) and 1 or 0"}, "off":"invis", "on":"mat_ab_heat"},
+		"mat_ab_heat_1g":{"advancedFunction":{"triggers":{"":"ab_flamesize_1"}, "cmd":"(ab_flamesize_1>=3 and ab_flamesize_1<4) and 1 or 0"}, "off":"invis", "on":"mat_ab_heat"},
+		"mat_ab_heat_1h":{"advancedFunction":{"triggers":{"":"ab_flamesize_1"}, "cmd":"(ab_flamesize_1>=2 and ab_flamesize_1<3) and 1 or 0"}, "off":"invis", "on":"mat_ab_heat"},
+		"mat_ab_heat_1i":{"advancedFunction":{"triggers":{"":"ab_flamesize_1"}, "cmd":"(ab_flamesize_1>=1 and ab_flamesize_1<2) and 1 or 0"}, "off":"invis", "on":"mat_ab_heat"},
+		"mat_ab_heat_1j":{"advancedFunction":{"triggers":{"":"ab_flamesize_1"}, "cmd":"(ab_flamesize_1>0 and ab_flamesize_1<1) and 1 or 0"}, "off":"invis", "on":"mat_ab_heat"},
+		"mat_ab_heat_2a":{"advancedFunction":{"triggers":{"":"ab_flamesize_2"}, "cmd":"(ab_flamesize_2>9) and 1 or 0"}, "off":"invis", "on":"mat_ab_heat"},
+		"mat_ab_heat_2b":{"advancedFunction":{"triggers":{"":"ab_flamesize_2"}, "cmd":"(ab_flamesize_2>=8 and ab_flamesize_2<9) and 1 or 0"}, "off":"invis", "on":"mat_ab_heat"},
+		"mat_ab_heat_2c":{"advancedFunction":{"triggers":{"":"ab_flamesize_2"}, "cmd":"(ab_flamesize_2>=7 and ab_flamesize_2<8) and 1 or 0"}, "off":"invis", "on":"mat_ab_heat"},
+		"mat_ab_heat_2d":{"advancedFunction":{"triggers":{"":"ab_flamesize_2"}, "cmd":"(ab_flamesize_2>=6 and ab_flamesize_2<7) and 1 or 0"}, "off":"invis", "on":"mat_ab_heat"},
+		"mat_ab_heat_2e":{"advancedFunction":{"triggers":{"":"ab_flamesize_2"}, "cmd":"(ab_flamesize_2>=5 and ab_flamesize_2<6) and 1 or 0"}, "off":"invis", "on":"mat_ab_heat"},
+		"mat_ab_heat_2f":{"advancedFunction":{"triggers":{"":"ab_flamesize_2"}, "cmd":"(ab_flamesize_2>=4 and ab_flamesize_2<5) and 1 or 0"}, "off":"invis", "on":"mat_ab_heat"},
+		"mat_ab_heat_2g":{"advancedFunction":{"triggers":{"":"ab_flamesize_2"}, "cmd":"(ab_flamesize_2>=3 and ab_flamesize_2<4) and 1 or 0"}, "off":"invis", "on":"mat_ab_heat"},
+		"mat_ab_heat_2h":{"advancedFunction":{"triggers":{"":"ab_flamesize_2"}, "cmd":"(ab_flamesize_2>=2 and ab_flamesize_2<3) and 1 or 0"}, "off":"invis", "on":"mat_ab_heat"},
+		"mat_ab_heat_2i":{"advancedFunction":{"triggers":{"":"ab_flamesize_2"}, "cmd":"(ab_flamesize_2>=1 and ab_flamesize_2<2) and 1 or 0"}, "off":"invis", "on":"mat_ab_heat"},
+		"mat_ab_heat_2j":{"advancedFunction":{"triggers":{"":"ab_flamesize_2"}, "cmd":"(ab_flamesize_2>0 and ab_flamesize_2<1) and 1 or 0"}, "off":"invis", "on":"mat_ab_heat"},
+		},
+
+	},
+}

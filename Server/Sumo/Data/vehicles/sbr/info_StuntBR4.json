@@ -1,0 +1,37 @@
+{
+  "0-100 km/h":4.6,
+  "0-100 mph":9.9,
+  "0-200 km/h":15.3,
+  "0-60 mph":4.3,
+  "100-0 km/h":32.7,
+  "100-200 km/h":10.7,
+  "60-0 mph":98.7,
+  "60-100 mph":5.6,
+  "BoundingBox":[
+    [
+      -0.67,
+      -1.11,
+      -0.205
+    ],
+    [
+      1.33,
+      3.1073,
+      1.07
+    ]
+  ],
+  "Braking G":1.203,
+  "Drivetrain":"AWD",
+  "Fuel Type":"Gasoline",
+  "Induction Type":"Turbo",
+  "Off-Road Score":34,
+  "Power":364,
+  "PowerPeakRPM":"6200 - 7200",
+  "Propulsion":"ICE",
+  "Top Speed":81.882450772602,
+  "Torque":425,
+  "TorquePeakRPM":"4900 - 6150",
+  "Transmission":"Manual",
+  "Weight":1555,
+  "Weight/Power":4.271978021978
+  "Description": "This SBR4 was recently seized by INTERPOL after an intense high speed chase where it was carrying stolen artwork from the Louvre. Extensively modified with rally suspension, an armor plated undercarriage, roll cage, and beefed up engine, this ex-professional getaway car eventually found its way to a police auction, where it was purchased by BSports and restored for use in the Stunt Arena."  
+}

@@ -1,0 +1,37 @@
+{
+  "0-100 km/h":4.3,
+  "0-100 mph":7.9,
+  "0-200 km/h":11.6,
+  "0-60 mph":4.2,
+  "100-0 km/h":30.6,
+  "100-200 km/h":7.2,
+  "60-0 mph":93,
+  "60-100 mph":3.7,
+  "BoundingBox":[
+    [
+      -0.816,
+      -1.836,
+      -0.1694
+    ],
+    [
+      1.416,
+      2.954,
+      1.048
+    ]
+  ],
+  "Braking G":1.286,
+  "Drivetrain":"RWD",
+  "Fuel Type":"Gasoline",
+  "Induction Type":"NA",
+  "Off-Road Score":24,
+  "Power":432,
+  "PowerPeakRPM":"5050 - 5900",
+  "Propulsion":"ICE",
+  "Top Speed":70.084520946443,
+  "Torque":610,
+  "TorquePeakRPM":"4200 - 5150",
+  "Transmission":"Sequential",
+  "Weight":1420,
+  "Weight/Power":3.287037037037
+  "Description": "This Scintilla was washed away in a hurricane, and purchased at auction by a Youtuber with more money than sense, who rebuilt it for use in Bsports competition. Since all the mechanicals and electronics were ruined in the flood, it's been completely rebuilt with a Gavril V8 engine, a sequential transmission, hideous bolt on widebody and chassis mounted wing, and fully custom race suspension. This violated Civetta's copyright which required the badges to be removed to avoid the Youtuber's channel being taken down at threat of expensive Italian lawers. A roll cage has been fitted to make sure the thing holds together, and the ruined electronics means that the active systems that make the car bearable to drive are completely gone. This is the fastest car in the Stunt Arena if you can tame it, but few ever will." 
+}

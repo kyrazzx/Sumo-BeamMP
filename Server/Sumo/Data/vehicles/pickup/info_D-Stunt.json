@@ -1,0 +1,37 @@
+{
+  "0-100 km/h":3.9,
+  "0-100 mph":9.3,
+  "0-200 km/h":15.7,
+  "0-60 mph":3.7,
+  "100-0 km/h":44.1,
+  "100-200 km/h":11.8,
+  "60-0 mph":136.1,
+  "60-100 mph":5.6,
+  "BoundingBox":[
+    [
+      -0.6,
+      -1.57,
+      -0.3149
+    ],
+    [
+      1.7,
+      3.59,
+      1.41
+    ]
+  ],
+  "Braking G":0.891,
+  "Drivetrain":"4WD",
+  "Fuel Type":"Gasoline",
+  "Induction Type":"NA",
+  "Off-Road Score":36,
+  "Power":560,
+  "PowerPeakRPM":"5250 - 6000",
+  "Propulsion":"ICE",
+  "Top Speed":70.420133070603,
+  "Torque":785,
+  "TorquePeakRPM":"4000 - 4950",
+  "Transmission":"Manual",
+  "Weight":2300,
+  "Weight/Power":4.1071428571429
+  "Description":"This D-Series lived a long life on a farm in the Southern US. Fitted with the rare 423 V8, the owner has decided to retire the old girl with a bang and enter into the BSports Arena. Beefed up with a reinforced chassis and bumpers, as much weight stripped from it as possible, a powerful Afterburner system, and side pipes, this truck can keep up with the best of em' and still take a beating. It can even handle the occasional corner, thanks to its lowered suspension. The only drawback is the faint smell of manure wafting from the bed."  
+}

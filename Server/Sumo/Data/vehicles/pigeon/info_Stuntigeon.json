@@ -1,0 +1,30 @@
+{
+  "0-100 km/h":15.1,
+  "0-60 mph":14.2,
+  "BoundingBox":[
+    [
+      -0.26,
+      -1.261,
+      -0.2033
+    ],
+    [
+      1.08,
+      2.019,
+      1.27
+    ]
+  ],
+  "Drivetrain":"RWD",
+  "Fuel Type":"Gasoline",
+  "Induction Type":"NA",
+  "Off-Road Score":39,
+  "Power":44,
+  "PowerPeakRPM":6200,
+  "Propulsion":"ICE",
+  "Top Speed":32.659922745447,
+  "Torque":55,
+  "TorquePeakRPM":"5000 - 6300",
+  "Transmission":"Manual",
+  "Weight":520,
+  "Weight/Power":11.818181818182
+  "Description":"This Pigeon lived a quiet life as a basic runabout for a migratory bird research station. After government funding dried up, the research station entered the aging little car into the Stunt Arena's new Micro class to hopefully win enough to keep the lights on and the birds watchted."
+}

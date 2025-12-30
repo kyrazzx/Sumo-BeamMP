@@ -1,0 +1,33 @@
+{
+  "0-100 km/h":12.6,
+  "0-60 mph":11.9,
+  "100-0 km/h":35.9,
+  "60-0 mph":109.6,
+  "BoundingBox":[
+    [
+      -0.33,
+      -1.314,
+      -0.2033
+    ],
+    [
+      1.15,
+      1.469,
+      1.104
+    ]
+  ],
+  "Braking G":1.096,
+  "Drivetrain":"RWD",
+  "Fuel Type":"Gasoline",
+  "Induction Type":"NA",
+  "Off-Road Score":46,
+  "Power":44,
+  "PowerPeakRPM":6200,
+  "Propulsion":"ICE",
+  "Top Speed":32.623590687602,
+  "Torque":55,
+  "TorquePeakRPM":"5000 - 6300",
+  "Transmission":"Manual",
+  "Weight":490,
+  "Weight/Power":11.136363636364
+  "Description":"This Wigeon traveled around the world as the star vehicle of the hit travel TV show, Road Trippers. After the show went off air, the Wigeon was sold at auction, and purchased by B Sports and modified to be the test car for the new Micro class."
+}

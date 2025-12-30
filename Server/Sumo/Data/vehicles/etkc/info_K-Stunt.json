@@ -1,0 +1,37 @@
+{
+  "0-100 km/h":5.5,
+  "0-100 mph":13.1,
+  "0-200 km/h":21.1,
+  "0-60 mph":5.1,
+  "100-0 km/h":36.6,
+  "100-200 km/h":15.5,
+  "60-0 mph":111.8,
+  "60-100 mph":7.9,
+  "BoundingBox":[
+    [
+      -0.73,
+      -2.12,
+      -0.18
+    ],
+    [
+      1.39,
+      2.33,
+      1.16
+    ]
+  ],
+  "Braking G":1.074,
+  "Drivetrain":"AWD",
+  "Fuel Type":"Gasoline",
+  "Induction Type":"NA",
+  "Off-Road Score":34,
+  "Power":275,
+  "PowerPeakRPM":6300,
+  "Propulsion":"ICE",
+  "Top Speed":73.849315235224,
+  "Torque":325,
+  "TorquePeakRPM":"2400 - 4450",
+  "Transmission":"Manual",
+  "Weight":1510,
+  "Weight/Power":5.4909090909091
+  "Description":"A used ETK bought off an elderly woman and hastily modified to enter BSports Stunt events. Don't be fooled by its base model non turbo six cylinder engine, it's lightweight body panels and fast cooling Afterburner system make it nimble and agile. However, it's suspension is quite fragile, so be careful over bumps."
+}

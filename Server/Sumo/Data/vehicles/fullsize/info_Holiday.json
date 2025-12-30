@@ -1,0 +1,37 @@
+{
+  "0-100 km/h":6.6,
+  "0-100 mph":15.9,
+  "0-200 km/h":28.4,
+  "0-60 mph":6.2,
+  "100-0 km/h":35,
+  "100-200 km/h":21.8,
+  "60-0 mph":106.2,
+  "60-100 mph":9.6,
+  "BoundingBox":[
+    [
+      -0.29,
+      -2.01,
+      -0.216
+    ],
+    [
+      1.93,
+      3.32,
+      1.245
+    ]
+  ],
+  "Braking G":1.124,
+  "Drivetrain":"RWD",
+  "Fuel Type":"Gasoline",
+  "Induction Type":"NA",
+  "Off-Road Score":25,
+  "Power":253,
+  "PowerPeakRPM":"4150 - 5600",
+  "Propulsion":"ICE",
+  "Top Speed":64.011739620386,
+  "Torque":460,
+  "TorquePeakRPM":"3000 - 3750",
+  "Transmission":"Manual",
+  "Weight":1760,
+  "Weight/Power":6.9565217391304
+  "Description":"Santa Claus the XXI's first car during his stint at North Pole University. It was seized by police when his fraternity house was caught distributing illegal presents."
+}

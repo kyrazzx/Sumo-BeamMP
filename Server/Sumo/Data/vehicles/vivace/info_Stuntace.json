@@ -1,0 +1,37 @@
+{
+  "0-100 km/h":4.6,
+  "0-100 mph":10.9,
+  "0-200 km/h":17.4,
+  "0-60 mph":4.4,
+  "100-0 km/h":33.9,
+  "100-200 km/h":12.8,
+  "60-0 mph":103.3,
+  "60-100 mph":6.5,
+  "BoundingBox":[
+    [
+      -0.85,
+      -1.858,
+      -0.258
+    ],
+    [
+      1.17,
+      2.542,
+      1.248
+    ]
+  ],
+  "Braking G":1.159,
+  "Drivetrain":"AWD",
+  "Fuel Type":"Gasoline",
+  "Induction Type":"Turbo",
+  "Off-Road Score":41,
+  "Power":317,
+  "PowerPeakRPM":"5550 - 6500",
+  "Propulsion":"ICE",
+  "Top Speed":71.543137932466,
+  "Torque":415,
+  "TorquePeakRPM":"2700 - 5550",
+  "Transmission":"Manual",
+  "Weight":1370,
+  "Weight/Power":4.3217665615142
+  "Description": "This Vivace is a former WRC racer that was dug out of a ditch in Finland after an unfortunate incident involving a puddle of mud and a large tree trunk. Seemingly totaled, it was abandoned by its race team and fell into the hands of a high school shop class who rebuilt it with drivetrain components from a normal road going Vivace. It has been entered in the Stunt Arena to advertise the school and hopefully make back the exhorbitant cost of carbon fiber body panels."
+}

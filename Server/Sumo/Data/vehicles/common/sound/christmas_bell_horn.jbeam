@@ -1,0 +1,101 @@
+{
+"soundscape_horn_jinglebell_horn": { //all these sounds are just from the 2017 christmas event "mod", which are in the game files.
+    "information":{
+        "authors":"Inn0centJok3r and BeamNG",
+        "name":"Jingle Bells Horn"
+    },
+    "slotType" : "soundscape_horn",
+    "soundscape": [
+        ["name", "src"],
+        ["horn", "art/sounds/mod_winter/Horn_ME_Christmas_loop.protected.ogg"],
+    ]
+},
+"soundscape_horn_jinglebell_horn1": { 
+    "information":{
+        "authors":"Inn0centJok3r and BeamNG",
+        "name":"Jingle Bells Horn 2"
+    },
+    "slotType" : "soundscape_horn",
+    "soundscape": [
+        ["name", "src"],
+        ["horn", "art/sounds/mod_winter/Horn_BW_Christmas_loop.protected.ogg"],
+    ]
+},
+"soundscape_horn_jinglebell_horn2": { 
+    "information":{
+        "authors":"Inn0centJok3r and BeamNG",
+        "name":"Jingle Bells Horn 3"
+    },
+    "slotType" : "soundscape_horn",
+    "soundscape": [
+        ["name", "src"],
+        ["horn", "art/sounds/mod_winter/Horn_PE_Christmas_loop.protected.ogg"],
+    ]
+},
+"soundscape_horn_jinglebell_horn3": { 
+    "information":{
+        "authors":"Inn0centJok3r and BeamNG",
+        "name":"Jingle Bells Horn 4"
+    },
+    "slotType" : "soundscape_horn",
+    "soundscape": [
+        ["name", "src"],
+        ["horn", "art/sounds/mod_winter/Horn_SU_Christmas_loop.protected.ogg"],
+    ]
+},
+"soundscape_horn_jinglebell_horn4": { 
+    "information":{
+        "authors":"Inn0centJok3r and BeamNG",
+        "name":"Jingle Bells Horn Truck"
+    },
+    "slotType" : "soundscape_horn",
+    "soundscape": [
+        ["name", "src"],
+        ["horn", "art/sounds/mod_winter/Horn_Truck_Christmas_loop.protected.ogg"],
+    ]
+},
+"soundscape_horn_christmas_horn1": { 
+    "information":{
+        "authors":"Inn0centJok3r and BeamNG",
+        "name":"Christmas Theme Horn"
+    },
+    "slotType" : "soundscape_horn",
+    "soundscape": [
+        ["name", "src"],
+        ["horn", "art/sounds/mod_winter/Merry_Christmas_Jingle_Filtered_01.protected.ogg"],
+    ]
+},
+"soundscape_horn_christmas_horn2": { 
+    "information":{
+        "authors":"Inn0centJok3r and BeamNG",
+        "name":"Christmas Theme Horn 2"
+    },
+    "slotType" : "soundscape_horn",
+    "soundscape": [
+        ["name", "src"],
+        ["horn", "art/sounds/mod_winter/Deck_the_Halls_Bells_Filtered.protected.ogg"],
+    ]
+},
+"soundscape_christmas_siren1": { 
+    "information":{
+        "authors":"Inn0centJok3r and BeamNG",
+        "name":"Christmas Theme Siren"
+    },
+    "slotType" : "soundscape_siren",
+    "soundscape": [
+        ["name", "src"],
+        ["siren", "art/sounds/mod_winter/Merry_Christmas_Jingle_Filtered_01.protected.ogg"],
+    ]
+},
+"soundscape_christmas_siren2": { 
+    "information":{
+        "authors":"Inn0centJok3r and BeamNG",
+        "name":"Christmas Theme Siren 2"
+    },
+    "slotType" : "soundscape_siren",
+    "soundscape": [
+        ["name", "src"],
+        ["siren", "art/sounds/mod_winter/Deck_the_Halls_Bells_Filtered.protected.ogg"],
+    ]
+},
+}

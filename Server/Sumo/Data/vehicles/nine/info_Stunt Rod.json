@@ -1,0 +1,37 @@
+{
+  "0-100 km/h":5.6,
+  "0-100 mph":11.9,
+  "0-200 km/h":19.4,
+  "0-60 mph":5.3,
+  "100-0 km/h":24.9,
+  "100-200 km/h":13.8,
+  "60-0 mph":76.3,
+  "60-100 mph":6.5,
+  "BoundingBox":[
+    [
+      -0.8833,
+      -1.8303,
+      -0.4629
+    ],
+    [
+      0.8833,
+      2.37,
+      0.976
+    ]
+  ],
+  "Braking G":1.58,
+  "Drivetrain":"RWD",
+  "Fuel Type":"Gasoline",
+  "Induction Type":"NA",
+  "Off-Road Score":41,
+  "Power":280,
+  "PowerPeakRPM":"4400 - 5200",
+  "Propulsion":"ICE",
+  "Top Speed":61.712177223499,
+  "Torque":470,
+  "TorquePeakRPM":"3050 - 4250",
+  "Transmission":"Manual",
+  "Weight":1265,
+  "Weight/Power":4.5178571428571
+  "Description": "Grandpappy kicked the bucket and left his old 291 swapped Nine to you, and you decided to dishonor his memory by entering it into the Bsports Stunt Arena to hopefully make some money, as he didn't leave you any. Luckily, the car did so poorly in inspection, the organizers allowed you to fit grippy slick tires and the most powerful Afterburner system on the grid, turning this anemic cruiser into a heatseeking missile with floormats and a steering wheel. It can outrun almost anything on the track, provided it holds together that long."
+}

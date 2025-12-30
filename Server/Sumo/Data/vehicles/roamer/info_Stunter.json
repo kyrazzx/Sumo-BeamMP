@@ -1,0 +1,37 @@
+{
+  "0-100 km/h":4,
+  "0-100 mph":9.6,
+  "0-200 km/h":15.8,
+  "0-60 mph":3.8,
+  "100-0 km/h":40.5,
+  "100-200 km/h":11.7,
+  "60-0 mph":122.8,
+  "60-100 mph":5.8,
+  "BoundingBox":[
+    [
+      -0.55,
+      -1.61,
+      -0.3149
+    ],
+    [
+      1.65,
+      3.58,
+      1.45274
+    ]
+  ],
+  "Braking G":0.971,
+  "Drivetrain":"4WD",
+  "Fuel Type":"Gasoline",
+  "Induction Type":"SC",
+  "Off-Road Score":36,
+  "Power":551,
+  "PowerPeakRPM":"4800 - 5550",
+  "Propulsion":"ICE",
+  "Top Speed":73.815971695767,
+  "Torque":850,
+  "TorquePeakRPM":"3450 - 4500",
+  "Transmission":"Manual",
+  "Weight":2385,
+  "Weight/Power":4.3284936479129
+  "Description": "This Roamer served its country as an FBI chase vehicle, helping bust drug lords and tax evaders alike. After its service life ended, it took up its final gig as a Bsports Arena vehicle, fitted with a supercharger, Afterburner, and lowered suspension to keep up. However, even with a stripped out interior, it can't hide its weight, so make sure to brake early."
+}

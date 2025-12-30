@@ -56,5 +56,33 @@
     "vehicles/pigeon/Light Pro Sumo Pigeon Box.pc",
     "vehicles/pigeon/Light Pro Sumo Pigeon.pc",
     "vehicles/wigeon/Light Pro Sumo Wigeon.pc"
+  ],
+  "Christmas Pack": [
+    "vehicles/autobello/Holiday.pc",
+    "vehicles/burnside/Holiday.pc",
+    "vehicles/bx/Holiday.pc",
+    "vehicles/covet/Holiday.pc",
+    "vehicles/fullsize/Holiday.pc",
+    "vehicles/sunburst2/Holiday.pc"
+  ],
+  "Stunt Ultra Light": [
+    "vehicles/pigeon/Stuntigeon.pc",
+    "vehicles/pigeon/StuntigeonBox.pc",
+    "vehicles/wigeon/StuntWigeon.pc"
+  ],
+  "Stunt Light": [
+    "vehicles/autobello/Stuntolina.pc",
+    "vehicles/etkc/K-Stunt.pc",
+    "vehicles/nine/Stunt Rod.pc",
+    "vehicles/sbr/StuntBR4.pc",
+    "vehicles/scintilla/Stuntilla.pc",
+    "vehicles/sunburst2/Stuntburst.pc"
+  ],
+  "Stunt Heavy": [
+    "vehicles/bastion/Bastunt.pc",
+    "vehicles/pickup/D-Stunt.pc",
+    "vehicles/roamer/Stunter.pc",
+    "vehicles/sbr/StuntBR4.pc",
+    "vehicles/vivace/Stuntace.pc"
   ]
 }

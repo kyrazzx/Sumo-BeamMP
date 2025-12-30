@@ -1,0 +1,37 @@
+{
+  "0-100 km/h":4.5,
+  "0-100 mph":10.3,
+  "0-200 km/h":16.3,
+  "0-60 mph":4,
+  "100-0 km/h":33.4,
+  "100-200 km/h":11.8,
+  "60-0 mph":102.5,
+  "60-100 mph":6.3,
+  "BoundingBox":[
+    [
+      -0.5795,
+      -1.801,
+      -0.232
+    ],
+    [
+      1.2255,
+      2.586,
+      1.208
+    ]
+  ],
+  "Braking G":1.176,
+  "Drivetrain":"AWD",
+  "Fuel Type":"Gasoline",
+  "Induction Type":"Turbo",
+  "Off-Road Score":35,
+  "Power":295,
+  "PowerPeakRPM":"5600 - 6950",
+  "Propulsion":"ICE",
+  "Top Speed":71.740841824465,
+  "Torque":410,
+  "TorquePeakRPM":"3550 - 4900",
+  "Transmission":"Manual",
+  "Weight":1415,
+  "Weight/Power":4.7966101694915
+  "Description":"The Arena's very own official car, for which all other Arena vehicles are BOP'D against. This Sunburst started life as an NGRC rally car, but blew a few too many head gaskets and was retired from competition. Since then, it's been rebuilt and reinforced more times than than can be counted, and has been a stepping stone for many Arena champions on their way to glory. Its long travel rally suspension provides unparalleled stability over rough terrain, and its Afterburner system while not powerful, lasts long, and cools quickly. While not a fan favorite, it's a solid all rounder."
+}

@@ -1,0 +1,37 @@
+{
+  "0-100 km/h":4.2,
+  "0-100 mph":10.1,
+  "0-200 km/h":16.2,
+  "0-60 mph":3.9,
+  "100-0 km/h":37.3,
+  "100-200 km/h":12,
+  "60-0 mph":113.8,
+  "60-100 mph":6.1,
+  "BoundingBox":[
+    [
+      -0.865,
+      -2.148,
+      -0.243
+    ],
+    [
+      1.265,
+      2.902,
+      1.257
+    ]
+  ],
+  "Braking G":1.053,
+  "Drivetrain":"AWD",
+  "Fuel Type":"Gasoline",
+  "Induction Type":"NA",
+  "Off-Road Score":34,
+  "Power":446,
+  "PowerPeakRPM":"5600 - 6550",
+  "Propulsion":"ICE",
+  "Top Speed":77.96248957228,
+  "Torque":600,
+  "TorquePeakRPM":"4150 - 5250",
+  "Transmission":"Manual",
+  "Weight":2130,
+  "Weight/Power":4.7757847533632,
+  "Description": "Once used as a stunt car on the set of the blockbuster movie Danger 2 Manifold: Highway Heist Part IV, this Bastion comes equipped with all wheel drive, bash bars, and a powerful Afterburner system, used for towing a bank safe full of Tasti Cola stolen from a soda obsessed drug lord's Turbo Burger hideout during the climax of the film, all while being shot at and pursued by a corrupt police force driving Grand Marshalls and the goons driving Arsenic Vivace's. These modifications make it perfectly suited for the BSports Stunt Arena events, and you get sit in the sweat of famous actor Vic Petrol! What it lacks in cornering speed it more than makes up for in raw American horsepower and on screen presence."
+}

@@ -1,0 +1,35 @@
+{
+  "0-100 km/h":8.1,
+  "0-100 mph":20.4,
+  "0-60 mph":7.7,
+  "100-0 km/h":34.2,
+  "60-0 mph":105,
+  "60-100 mph":12.7,
+  "BoundingBox":[
+    [
+      -0.68,
+      -1.627,
+      -0.25124
+    ],
+    [
+      0.98,
+      2.14,
+      1.215
+    ]
+  ],
+  "Braking G":1.148,
+  "Drivetrain":"RWD",
+  "Fuel Type":"Gasoline",
+  "Induction Type":"NA",
+  "Off-Road Score":46,
+  "Power":99,
+  "PowerPeakRPM":"4800 - 5300",
+  "Propulsion":"ICE",
+  "Top Speed":45.647482590261,
+  "Torque":150,
+  "TorquePeakRPM":"4200 - 4900",
+  "Transmission":"Manual",
+  "Weight":765,
+  "Weight/Power":7.7272727272727
+  "Description": "A rogue faction of Santa's elves used this specially modified Piccolina in a high speed reindeer pursuit after robbing $6 million dollars in chocolate chip cookies from the North Pole Federal Reserve."
+}

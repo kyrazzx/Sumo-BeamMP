@@ -536,6 +536,11 @@ function sumoGameEnd(reason)
 		local totalScore = {}
 		if useDB then
 			local scoresQuery = db.execute_query("SELECT * FROM scores")
+			if not scoresQuery then
+				print("Make sure the SUMO_USE_DB env variable is set correctly, reading the database failed")
+				useDB = false
+				return
+			end
 			for _, entry in ipairs(scoresQuery) do
 				local playername = entry.playername
 				totalScore[playername] = entry.score
